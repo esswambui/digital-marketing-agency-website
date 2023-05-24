@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h3{
+    font-size: 44px;
+    line-height: 55px;
+    color: #121212;
+    font-weight: 600;
+}
+h6{
+    font-size: 20px;
+    line-height: 32px;
+    color: #6c6c6c;
+    margin-top: 16px;
+    font-weight: normal;
+}
+
+/* ======================================== NAV ===================== */
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+.nav .navbar-toggler{
+    display: none;
+    border: none;
+    outline: none;
+}
+.nav .navbar-toggler .toggler-icon{
+    width: 27px;
+    height: 3px;
+    background-color: #121212;
+    margin: 5px 0;
+    position: relative;
+    display: block;
+    transition: all 0.3s ease-out 0s;
+}
+.nav .flex-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav .menu-bar .menu-items li{
+    margin: 0 15px;
+}
+.nav .menu-bar .menu-items li a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav .menu-bar .menu-items li a:hover{
+    color: #4F47E4;
+}
+.nav .navbar-social span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #6c6c6c;
+    padding-right: 10px;
+}
+.nav .navbar-social ul li{
+    margin: 0 7px;
+}
+.nav .navbar-social ul li a{
+    color:#6c6c6c;
+    font-size: 22px;
+}
+.back{
+    background-image: url(images/6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 120vh;
+    width: 100%;
+}
