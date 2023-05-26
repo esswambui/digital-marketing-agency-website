@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
 body{
     font-family: "Poppins", sans-serif;
 }
@@ -12,21 +15,55 @@ a{
 li{
     list-style: none;
 }
-h3{
-    font-size: 44px;
-    line-height: 55px;
+h2{
+    font-size: 6rem;
+    line-height: 7.2rem;
     color: #121212;
     font-weight: 600;
 }
+h3{
+    font-size: 6rem;
+    line-height: 7rem;
+    color: #121212;
+    font-weight: 600;
+    color: #0D3D80;
+}
+h4{
+    font-size: 2.8rem;
+    line-height: 4rem;
+    color: #0D3D80;
+}
 h6{
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
     color: #6c6c6c;
-    margin-top: 16px;
+    margin-top: 1.6rem;
     font-weight: normal;
 }
+p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #121212;
+}
+.main-btn{
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    font-size: 1.6rem;
+    padding: 0 2em;
+    color: #0067F4;
+    line-height: 4.8rem;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0s;
+    z-index: 5;
+}
 
-/* ======================================== NAV ===================== */
+/* ===================================== HEADER ===================== */
+
 .nav{
     position: fixed;
     display: flex;
@@ -37,6 +74,7 @@ h6{
     padding: 1rem 6.5rem;
     background: transparent;
     transition: all 0.5s ease;
+    z-index: 1000;
 }
 .nav .navbar-toggler{
     display: none;
@@ -44,10 +82,10 @@ h6{
     outline: none;
 }
 .nav .navbar-toggler .toggler-icon{
-    width: 27px;
-    height: 3px;
+    width: 2.7rem;
+    height: 0.3rem;
     background-color: #121212;
-    margin: 5px 0;
+    margin: 0.5rem 0;
     position: relative;
     display: block;
     transition: all 0.3s ease-out 0s;
@@ -59,34 +97,163 @@ h6{
     align-items: center;
 }
 .nav .menu-bar .menu-items li{
-    margin: 0 15px;
+    margin: 0 1.5rem;
 }
 .nav .menu-bar .menu-items li a{
     color: #000;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .nav .menu-bar .menu-items li a:hover{
     color: #4F47E4;
 }
 .nav .navbar-social span{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
-    color: #6c6c6c;
-    padding-right: 10px;
+    color: #0D3D80;
+    padding-right: 1rem;
 }
 .nav .navbar-social ul li{
-    margin: 0 7px;
+    margin: 0 0.7rem;
 }
 .nav .navbar-social ul li a{
-    color:#6c6c6c;
-    font-size: 22px;
+    color: #0D3D80;
+    font-size: 2.2rem;
 }
+
+/* =======================MAIN SECTION ============================== */
 .back{
-    background-image: url(images/6.jpg);
+    background-image: url(images/8.jpg);
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+    position: relative; 
     height: 120vh;
+    width: 100%; 
+}
+.back .overlay{
+    background: linear-gradient(90deg, rgba(12,245,150,0.25) 0%, rgba(13,237,250,0.8) 65%, rgba(12,245,150,0.25) 100%);
+    height: 100%;
+} 
+.back .hero-shape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
+}
+.back .hero-shape img{
+    display: block;
+    width: 100%;
+}
+.hero-text{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hero-text h6{
+    color: #1d1d1d;
+}
+.hero-text .hero-btn{
+    margin-top: 2.2rem;
+}
+.hero-text .hero-btn li{
+    display: inline-block;
+    margin: 1rem 1rem 0 0;
+
+}
+.hero-text .hero-btn li a.main-btn{
+    border-radius: 5rem;
+    overflow: hidden;
+    border:0;
+    line-height: 5rem;
+    background-color: #fff;
+    box-shadow: 0 0.3rem 0.6rem 0 rgba(0,0,0,0,0.3);
+}
+.hero-text .hero-btn .btn-one:hover{
+    box-shadow: 0 0.3rem 2.5rem 0 rgba(0,0,0,0,0.6);
+}
+.hero-text .hero-btn .btn-two{
+    color: #fff;
+}
+.hero-text .hero-btn .btn-two::before{
+    position:absolute;
+    content:'';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-image: linear-gradient(to right,#0067F4, #0051C2);z-index: -1;
+    transition: all 0.3s ease;
+    background-position: right center;
+
+}
+.hero-text .hero-btn .btn-two:hover::before{
+    background-image: linear-gradient(to left,#0067F4, #0051C2);
+    background-position: left center;
+}
+
+/* =======================SEERVICES SECTION========================== */
+.wrapper{
+    margin: 7rem 10rem 14rem 10rem;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: 7rem;
+}
+.services > .service-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7rem;
+    padding: 3rem;
+    
+}
+.services .service-content .content-image{
+    width: 40%;
+    
+}
+.services .service-content .content-image img{
+    width: 100%;
+    height: 40vh;
+    
+}
+.services .service-content .content-box{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.services .service-content .content-box .box-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+}
+.services .service-content .content-box .box-one .service-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 3.2rem;
+    box-shadow: 0 1.5rem 3rem 1.5rem rgba(0,0,0,0);
+}
+.services .service-content .content-box .box-one .service-item i{
+    color: #0D3D80;
+    font-size: 4.8rem;
+    margin-bottom: 1rem;
+}
+.services .service-content .content-box .box-one .service-item .service-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
