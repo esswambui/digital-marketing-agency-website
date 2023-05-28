@@ -39,7 +39,7 @@ h6{
     margin-top: 1.6rem;
     font-weight: normal;
 }
-p{
+p, span{
     font-size: 1.8rem;
     line-height: 1.5;
     color: #1F2D4C;
@@ -62,14 +62,44 @@ p{
 }
 
 /* ===================================== HEADER ===================== */
-
-.nav{
+ nav{
+    /* padding: 0 3rem; */
+    width: 100%;
+    height: 10rem;
     position: fixed;
+    z-index: 1000;
+}  
+.top-nav{
+    margin: 0;
+    height: 3.5rem; 
+    background: white;
+    width: 100%;
+}
+
+.top-nav div{
+    display: flex;
+    justify-content: space-around;
+
+  
+}
+.top-nav a{
+    padding: 0 0.5rem;
+    color: #000;
+}
+.top-nav i{
+    font-size: 1.8rem;
+    margin: 0 0.7rem;
+    color: #1F2D4C;
+}
+.nav{
+    position:fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    /* height: 6rem;
+    line-height: 6rem; */
     padding: 1rem 6.5rem;
     background: transparent;
     transition: all 0.5s ease;
@@ -210,13 +240,20 @@ p{
     /* text-align: center; */
     margin: 7rem;
 }
+.services .agency-name{
+    color: #5E89E5;
+    font-size: 6rem;
+    line-height: 7rem;
+    font-weight: 600;
+}
 .services > .service-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 7rem;
-    padding: 3rem;
+    margin: 6rem 0;
+    padding: 2rem;
+    margin-bottom: 3rem;
     
 }
 .services .service-content .content-image{
@@ -225,7 +262,7 @@ p{
 }
 .services .service-content .content-image img{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     
 }
 .services .service-content .content-box{
@@ -233,6 +270,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1rem;
     
     
 }
@@ -241,7 +279,7 @@ p{
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    padding: 2rem;
+    padding: 3rem 2rem;
 }
 .services .service-content .content-box .box-one .service-item{
     display: flex;
@@ -249,15 +287,17 @@ p{
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: 3.2rem;
-    box-shadow: 0 1.5rem 3rem 1.5rem #1F2D4C;
+    padding:3rem;
+    padding-right: 2rem;
+    box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 151, 178, 0.4);
 }
 .services .service-content .content-box .box-one .service-item i{
-    color: #3F5B99;
+    color: #5E89E5;
     font-size: 4.8rem;
     margin-bottom: 1rem;
 }
 .services .service-content .content-box .box-one .service-item h4{
-    color: #3F5B99;
+    color:#5E89E5;
 }
 .services .service-content .content-box .box-one .service-item .service-content{
     display: flex;
