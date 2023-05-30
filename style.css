@@ -41,7 +41,7 @@ h6{
 }
 p, span{
     font-size: 1.8rem;
-    line-height: 1.5;
+    line-height: 2rem;
     color: #1F2D4C;
 }
 .main-btn{
@@ -65,6 +65,7 @@ p, span{
  nav{
     /* padding: 0 3rem; */
     width: 100%;
+    /* max-width: 140rem; */
     height: 10rem;
     position: fixed;
     z-index: 1000;
@@ -100,7 +101,7 @@ p, span{
     width: 100%;
     /* height: 6rem;
     line-height: 6rem; */
-    padding: 1rem 6.5rem;
+    padding: 1rem 8rem;
     background: transparent;
     transition: all 0.5s ease;
     z-index: 1000;
@@ -163,7 +164,9 @@ p, span{
     width: 100%; 
 }
 .back .overlay{
-    background: linear-gradient(90deg, rgba(0,8,9,0.9) 0%, rgba(0,0,0,0.75) 22%, rgba(0,21,24,0.8) 100%);
+    /* background: linear-gradient(90deg, rgba(0,8,9,0.9) 0%, rgba(0,0,0,0.75) 22%, rgba(0,21,24,0.8) 100%); */
+    background: linear-gradient(90deg, rgba(31,45,76,0.9) 10%, rgba(0,0,0, 0.75) 50%, rgba(45,77,99,0.8) 90%);
+
     height: 100%;
 } 
 .back .hero-shape{
@@ -230,7 +233,8 @@ p, span{
 
 /* =======================SEERVICES SECTION========================== */
 .wrapper{
-    margin: 7rem 10rem 14rem 10rem;
+    max-width: 140rem;
+    margin: 7rem auto 14rem;
 }
 .services{
     display: flex;
@@ -239,9 +243,10 @@ p, span{
     align-items: center;
     /* text-align: center; */
     margin: 7rem;
+    margin-bottom: 0;
 }
 .services .agency-name{
-    color: #5E89E5;
+    color: #009782; 
     font-size: 6rem;
     line-height: 7rem;
     font-weight: 600;
@@ -253,7 +258,7 @@ p, span{
     align-items: center;
     margin: 6rem 0;
     padding: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     
 }
 .services .service-content .content-image{
@@ -289,19 +294,247 @@ p, span{
     margin-bottom: 3.2rem;
     padding:3rem;
     padding-right: 2rem;
-    box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 151, 178, 0.4);
+    /* box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 151, 178, 0.4); */
+    box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(5, 176, 178, 0.4);
 }
 .services .service-content .content-box .box-one .service-item i{
-    color: #5E89E5;
+    /* color: #5E89E5; */
+    color: #F99152;
     font-size: 4.8rem;
     margin-bottom: 1rem;
 }
 .services .service-content .content-box .box-one .service-item h4{
-    color:#5E89E5;
+    color:#2B2875;
 }
 .services .service-content .content-box .box-one .service-item .service-content{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+/*=============== CALL TO ACTION ========================*/
+.call-to-act{
+    /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #910AFA), url(images/8.jpg); */
+    background: linear-gradient(to right, rgba(31,45,76,0.8), rgba(45,77,99,0.8)), url(images/8.jpg);
+    min-height: 50rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 10rem;
+}
+.call-to-act .parallax{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.call-to-act .parallax h3, 
+.call-to-act .parallax p{
+    color: #fff;
+}
+.call-to-act .parallax h3{
+    font-size: 5.5rem;
+    line-height: 6.5rem;
+} 
+.call-to-act .parallax p{
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 2.5rem 0;
+} 
+.call-to-act .parallax i{
+    color:#000;
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+.call-to-act .parallax .main-btn{
+    border-radius: 5rem;
+    overflow: hidden;
+    border:0;
+    line-height: 5rem;
+    background-color: #fff;
+    box-shadow: 0 0.3rem 0.6rem 0 rgba(0,0,0,0,0.3);
+}
+.call-to-act .parallax .main-btn:hover{
+    background: transparent;
+    
+    outline: 1px solid #fff;
+    box-shadow: 0 0.3rem 2.5rem 0 rgba(0,0,0,0,0.6);
+}
+.call-to-act .parallax .main-btn a,
+.call-to-act .parallax .main-btn i{
+    color: #1F2D4C;
+}
+.call-to-act .parallax .main-btn:hover a,
+.call-to-act .parallax .main-btn:hover i{
+    color: #fff;
+}
+
+/* ================== PRICING SSECTION ================== */
+.pricing{
+    display: block;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.pricing h6{
+    margin-bottom: 4rem;
+
+}
+.pricing .table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.pricing .basic{
+    width: 37rem;
+    height: 100%;
+    border: 1px solid #0097B2;
+    border-radius: 2rem;
+}
+.pricing .basic .basic-head{
+    padding: 4rem 0;
+    background-color: #ecf0f1;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+.pricing .basic:hover .basic-head,
+.pricing .standard .basic-head{
+    background-image: linear-gradient(to right, #0AC9B2, #0097B2);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
+}
+.pricing .basic h4{
+    text-align: center;
+    font-weight: 300;
+    
+}
+.pricing .basic span{
+    opacity: 0.8;
+    font-size: 1.6rem;
+} 
+.pricing .basic .price{
+    text-align: center;
+    display: block;
+    padding: 2rem 0;
+    
+}
+.pricing .basic .price .sign{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.pricing .basic .price .currency{
+    font-size: 4rem;
+    letter-spacing: -0.2rem;
+    line-height: 4rem;
+    padding: 0;
+    vertical-align: middle;  
+
+}
+.pricing .basic .price .product{
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 400;
+    vertical-align: bottom;
+    letter-spacing: 0.1rem;
+}
+.pricing .basic ul{
+   padding: 2rem 5rem ;
+}
+.pricing .basic ul li{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    color: #0097B2;
+    text-align: left;
+    padding:1.5em 2rem;
+
+}
+.pricing .basic ul li i{
+    padding-right: 0.5rem;
+}
+.pricing .table .hero-btn {
+    margin: 3.2rem auto;
+    width: 17rem;
+}
+.pricing .table .price-btn a{
+    margin: 3.2rem auto;
+    margin-top: 2rem;
+    width: 17rem;
+    font-weight: normal;
+    font-size: 1.4rem;
+    border-radius: 5rem;
+    outline: medium none;
+    border: 1px solid rgb(5, 176, 178);
+}
+.pricing .table .basic:hover .price-btn a{
+    background-image: linear-gradient(to right, #0097B2, #0AC9B2);
+    border: 1px solid rgb(5, 176, 178);
+}
+
+.pricing .table .standard .price-btn a{
+    background-image: linear-gradient(to right, #0AC9B2, #0097B2);
+    border: 1px solid rgb(5, 176, 178);
+}
+
+/*==================CONTACT US ================================*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact .form{
+    width: 70%;
+    margin-top: 4rem;
+
+}
+.contact .form .first-row,
+.contact .form .second-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.4rem 0;
+}
+.contact .form .first-row input,
+.contact .form .second-row input{
+    width: 47%;
+    height: 5.6rem;
+    border: 1px solid #cbced1;
+    border-radius : 0.5rem;
+    padding: 0 2.5rem;
+    font-size: 1.6rem;
+    outline: none;
+}
+.contact .form textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid #cbced1;
+    border-radius : 0.5rem;
+    padding: 0 2.5rem;
+    font-size: 1.6rem;
+    outline: none;
+    font-family: "Poppins" sans-serif;
+    padding-top: 1.5rem;
+}
+.contact .form .hero-btn{
+    margin: 3.2rem auto;
+    width: 17rem;
+}
+.contact .form .hero-btn a{
+    background-image: linear-gradient(to right, #0AC9B2, #0097B2 );
+    border: none;
+    outline: none;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: #1F2D4C;
 }
