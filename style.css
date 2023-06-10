@@ -1121,7 +1121,7 @@ footer p{
 
     .nav .navbar-social{
         margin-right: 6rem;
-        top: 90vh;
+        top: 95vh;
         align-content: center;
        
     }
@@ -1129,10 +1129,10 @@ footer p{
         color:#1F2D4C;
     }
 
-    .back{
+    /* .back{
         background-size: contain;
         height: 120vh;
-    }
+    } */
   
     .hero-text{
         width: 80%;
@@ -1464,4 +1464,9 @@ footer p{
 
 
     
+}
+@media only screen and (max-width: 400px){
+    .wrapper{
+        max-width: 360px;
+    }
 }
