@@ -1348,7 +1348,7 @@ footer p{
          flex-direction: column; 
         justify-content: center;
         align-items: center;
-        max-height: 150vh;   
+        max-height: 200vh;   
         padding: 3rem 1rem;
         overflow-y: scroll;
         position: relative;
@@ -1411,7 +1411,7 @@ footer p{
     }
     .modal-content .form  div select{
         margin-bottom: 2rem;
-        /* height: 5rem; */
+         height: 4rem; 
         padding-left: 0;
     }
     .modal-content .form  div label{
