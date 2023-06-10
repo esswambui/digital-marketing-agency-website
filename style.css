@@ -958,11 +958,11 @@ footer p{
         color:#1F2D4C;
     }
 
-    .back{
+    /* .back{
         background-size: contain;
         background-repeat: no-repeat;
         height: 110vh;
-    }
+    } */
 
     .hero-text{
         width: 80%;
@@ -977,9 +977,9 @@ footer p{
      .wrapper{
         margin: 4rem 1.5rem 10rem 1.5rem;
     }
-    .services{
+    /* .services{
         padding: 1rem;
-    }
+    } */
     .services .service-content .content-box{
         width: 100%;
         display: flex;
@@ -1084,7 +1084,7 @@ footer p{
      
     }
     .modal-content .form .third-row div{
-        height: 8rem;
+        height: 6rem;
     }
     
     .modal-content .form  h3{
@@ -1384,7 +1384,7 @@ footer p{
     }
     .modal-content .form .row div{
            width: 80%;
-        height: 7rem; 
+        height: 6rem; 
         margin: 1rem auto;
     }
     .modal .form .first-row div{
@@ -1395,7 +1395,7 @@ footer p{
         margin-top:0;
     }
     .modal-content .form .third-row div{
-        height: 10rem;
+        height: 8rem;
     }
     .modal-content .form .row input,
     .modal-content .form  div select{
