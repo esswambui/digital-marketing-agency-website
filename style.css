@@ -1363,6 +1363,7 @@ footer p{
         /* margin: 0 ;
         padding: 0; */
         width: 90%;
+        height: 100%;
         box-shadow: 0 0.1rem 9.5rem 0.2rem rgba(5, 176, 178, 0.4);
       }
       .modal .form .title{
@@ -1394,9 +1395,9 @@ footer p{
         padding-top: 0;
         margin-top:0;
     }
-    /* .modal-content .form .third-row div{
+     .modal-content .form .third-row div{
         height: 8rem;
-    } */
+    } 
     .modal-content .form .row input,
     .modal-content .form  div select{
         height: 3rem; 
