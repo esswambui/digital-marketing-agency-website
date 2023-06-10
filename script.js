@@ -5,11 +5,19 @@ $(function() {
     });
 });
 
+
+
+const menu = document.getElementById("bar")
+const navBar = document.getElementById("navbar")
+const socials = document.getElementById("socials")
 // Smooth scrolling with offset
 document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
       
+      navBar.style.right = "-36rem";
+      socials.style.right = "-36rem";
+
       const offset = 150; // Change this value to adjust the offset
       
       const target = document.querySelector(this.getAttribute('href'));
@@ -23,10 +31,6 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
   });
 
   //Hamburger menu
-  const menu = document.getElementById("bar")
-  const navBar = document.getElementById("navbar")
-  const socials = document.getElementById("socials")
-
  navBar.style.right = "-36rem";
 
  menu.onclick = function(){
@@ -38,6 +42,8 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
       socials.style.right = "-36rem";
     }
  }
+
+
   
 
    // Get the modal
