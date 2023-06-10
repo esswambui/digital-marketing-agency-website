@@ -1180,9 +1180,12 @@ footer p{
         flex-direction: column;
             justify-content: center;
         align-items: center;
-        margin: 6rem 0;
+        /* margin: 6rem 0;
         padding: 2rem;
-        margin-bottom: 5rem;
+        margin-bottom: 5rem; */
+        margin: 4rem 0;
+        padding: 0;
+        margin-bottom: 4rem;
         /* flex-wrap: wrap; */
         
     }
@@ -1193,13 +1196,6 @@ footer p{
     .services .service-content .content-image img{
         width: 100%;
         height: 25vh;
-        
-    }
-    .services > .service-content{
-       
-        margin: 4rem 0;
-        padding: 0;
-        margin-bottom: 4rem;
         
     }
     .services .service-content .content-box{
@@ -1236,7 +1232,7 @@ footer p{
         line-height: 3rem;
         margin-bottom: 4rem;
     }
-    .servics p{
+    .servies p{
         font-size: 1.6rem;
         line-height: 3rem;
     }
