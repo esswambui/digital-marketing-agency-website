@@ -1130,7 +1130,7 @@ footer p{
     }
 
     .back{
-        background-position: contain;
+        background-size: contain;
         height: 120vh;
     }
   
