@@ -1394,9 +1394,9 @@ footer p{
         padding-top: 0;
         margin-top:0;
     }
-    .modal-content .form .third-row div{
+    /* .modal-content .form .third-row div{
         height: 8rem;
-    }
+    } */
     .modal-content .form .row input,
     .modal-content .form  div select{
         height: 3rem; 
@@ -1410,7 +1410,7 @@ footer p{
     }
     .modal-content .form  div select{
         margin-bottom: 2rem;
-        height: 5rem;
+        /* height: 5rem; */
         padding-left: 0;
     }
     .modal-content .form  div label{
