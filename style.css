@@ -1098,6 +1098,11 @@ footer p{
     .top-nav{
         padding:0;
         height: 6rem;
+        max-width: 100%;
+    }
+    .nav{
+        height: 8rem;
+        max-width: 100%;
     }
     .top-nav div{
         flex-direction: column;
@@ -1115,7 +1120,7 @@ footer p{
     }
 
     .nav .logo img, footer .logo img {
-        height: 50px;
+        height: 70px;
     }
 
     .nav .navbar-social{
