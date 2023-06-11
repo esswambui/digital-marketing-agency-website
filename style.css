@@ -1216,6 +1216,10 @@ footer p{
         
         padding: 2rem 1rem;
     }
+    .services .service-content .content-box .box-one .service-item,
+    .services .service-content .content-box .box-one:last-child {
+        width: 100%;
+    }
    
     .services .service-content .content-box .box-one .service-item h4{
         color:#0A7AC9;
