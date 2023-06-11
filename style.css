@@ -1092,7 +1092,7 @@ footer p{
         line-height: 2.5rem;
     }
 }
-/* @media only screen and (max-width: 541px){
+ @media only screen and (max-width: 541px){
    
     .top-nav{
         padding:0;
@@ -1112,7 +1112,9 @@ footer p{
         font-size: 1.2rem;
        
     }
-    .nav .logo img, footer .logo img {
+
+ }
+ /*   .nav .logo img, footer .logo img {
         height: 70px;
     }
     .nav .menu-bar{
