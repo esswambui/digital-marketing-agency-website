@@ -1092,7 +1092,7 @@ footer p{
         line-height: 2.5rem;
     }
 }
-@media only screen and (max-width: 541px){
+/* @media only screen and (max-width: 541px){
    
     .top-nav{
         padding:0;
@@ -1468,4 +1468,4 @@ footer p{
     .wrapper{
         max-width: 360px;
     }
-}
+} */
