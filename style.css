@@ -917,7 +917,6 @@ footer p{
         width: 36rem;
         height: 100vh;
         background-color: rgba(255,255,255,0.9);
-        /* background: linear-gradient(90deg, rgba(31,45,76,1) 10%, rgba(0,0,0, 0.9) 50%, rgba(45,77,99,1) 90%); */
         transition: all 0.6s ease;
     }
     .nav .menu-bar .menu-items{
@@ -1124,7 +1123,7 @@ footer p{
   
     .hero-text{
         width: 80%;
-        bottom: 0;
+        bottom: 50%;
      }
    
     .hero-text h2{
