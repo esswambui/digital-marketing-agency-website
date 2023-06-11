@@ -958,11 +958,11 @@ footer p{
         color:#1F2D4C;
     }
 
-    /* .back{
+    .back{
         background-size: contain;
         background-repeat: no-repeat;
         height: 110vh;
-    } */
+    }
 
     .hero-text{
         width: 80%;
@@ -977,9 +977,9 @@ footer p{
      .wrapper{
         margin: 4rem 1.5rem 10rem 1.5rem;
     }
-    /* .services{
+    .services{
         padding: 1rem;
-    } */
+    }
     .services .service-content .content-box{
         width: 100%;
         display: flex;
@@ -1084,7 +1084,7 @@ footer p{
      
     }
     .modal-content .form .third-row div{
-        height: 6rem;
+        height: 8rem;
     }
     
     .modal-content .form  h3{
@@ -1121,7 +1121,7 @@ footer p{
 
     .nav .navbar-social{
         margin-right: 6rem;
-        top: 95vh;
+        top: 90vh;
         align-content: center;
        
     }
@@ -1129,10 +1129,10 @@ footer p{
         color:#1F2D4C;
     }
 
-    /* .back{
+    .back{
         background-size: contain;
         height: 120vh;
-    } */
+    }
   
     .hero-text{
         width: 80%;
@@ -1180,12 +1180,9 @@ footer p{
         flex-direction: column;
             justify-content: center;
         align-items: center;
-        /* margin: 6rem 0;
+        margin: 6rem 0;
         padding: 2rem;
-        margin-bottom: 5rem; */
-        margin: 4rem 0;
-        padding: 0;
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
         /* flex-wrap: wrap; */
         
     }
@@ -1196,6 +1193,13 @@ footer p{
     .services .service-content .content-image img{
         width: 100%;
         height: 25vh;
+        
+    }
+    .services > .service-content{
+       
+        margin: 4rem 0;
+        padding: 0;
+        margin-bottom: 4rem;
         
     }
     .services .service-content .content-box{
@@ -1232,7 +1236,7 @@ footer p{
         line-height: 3rem;
         margin-bottom: 4rem;
     }
-    .servies p{
+    .servics p{
         font-size: 1.6rem;
         line-height: 3rem;
     }
@@ -1344,7 +1348,7 @@ footer p{
          flex-direction: column; 
         justify-content: center;
         align-items: center;
-        max-height: 200vh;   
+        max-height: 150vh;   
         padding: 3rem 1rem;
         overflow-y: scroll;
         position: relative;
@@ -1359,7 +1363,6 @@ footer p{
         /* margin: 0 ;
         padding: 0; */
         width: 90%;
-        height: 100%;
         box-shadow: 0 0.1rem 9.5rem 0.2rem rgba(5, 176, 178, 0.4);
       }
       .modal .form .title{
@@ -1381,7 +1384,7 @@ footer p{
     }
     .modal-content .form .row div{
            width: 80%;
-        height: 6rem; 
+        height: 7rem; 
         margin: 1rem auto;
     }
     .modal .form .first-row div{
@@ -1391,9 +1394,9 @@ footer p{
         padding-top: 0;
         margin-top:0;
     }
-     .modal-content .form .third-row div{
-        height: 8rem;
-    } 
+    .modal-content .form .third-row div{
+        height: 10rem;
+    }
     .modal-content .form .row input,
     .modal-content .form  div select{
         height: 3rem; 
@@ -1407,7 +1410,7 @@ footer p{
     }
     .modal-content .form  div select{
         margin-bottom: 2rem;
-         height: 4rem; 
+        height: 5rem;
         padding-left: 0;
     }
     .modal-content .form  div label{
@@ -1461,9 +1464,4 @@ footer p{
 
 
     
-}
-@media only screen and (max-width: 400px){
-    .wrapper{
-        max-width: 360px;
-    }
 }
