@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round O Clock Agency</title>
+
+    <!-- font awesome bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="top-nav">
+                <div class="container d-flex">
+                    <a href="tel:+(254)700000000"><i class="fa-solid fa-phone"></i><span>Call us: +254 700 000 000</span></a>
+                    
+                    <a href="mailto: roundoclock@gmail.com"><i class="fa-solid fa-envelope"></i> <span>Email: roundoclock2@gmail.com</span></a>
+                    
+                </div>
+
+            </div>
+            <div class="nav">
+            <!-- logo -->
+            <a class="logo" href="#">
+                <img src="images/round-logo.png" alt="logo">
+            </a>
+            <!-- hamburger menu -->
+            <div class="navbar-toggler" type="button" id="bar">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </div>
+            <!-- Navigation links -->
+            <div class="menu-bar" id="navbar">
+                <ul class="menu-items flex-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Social Media Icons -->
+            <div class="navbar-social flex-menu" id="socials">
+                <span>FOLLOW US</span>
+                <ul class="flex-menu">
+                  
+                    <li><a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="back offset" id="home">
+            <div class="overlay"></div>
+            <div class="hero-shape">
+                <img src="images/header-shape.svg" alt="">
+            </div>
+            <div class="hero-text">
+                <h2>Strategic Marketing to Grow your Business Online.</h2>
+                <h6>Unleash your online potential with our captivating web designs and ignite your brand with our dynamic digital marketing strategies and engaging social media magic</h6>
+                <div class="hero-btn">
+                    <li><a class="main-btn btn-one" id="popup-btn" href="#">GET IN TOUCH</a></li>
+                    <li><a class="main-btn btn-two" href="#contact">REQUEST A QUOTE</a></li>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class = "wrapper">
+        <!-- Services Section -->
+        <section class="offset services" id="services">
+            <h3>Welcome to <span class="agency-name">Round O Clock</span>  Marketing Agency</h3>
+            <h6>We are a web development and digital marketing consulting agency based in Nairobi, Kenya. We offer a wide range of cutting edge innovatine solutions and differentiated pricing  to suite your objective and budget.</h6>
+            <div class="service-content">
+                <div class="content-image">
+                    <img src="images/10.jpg" alt="laptop smartgphone and pen">
+                </div>
+                <div class="content-box">
+                    <div class="box-one">
+                       
+                            <div class="service-item">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <div class="service-content">
+                                    <h4 class="service-title">Website Development</h4>
+                                    <p class="text">Unlock endless possibilities for your online presence with our comprehensive web development services. From basic websites to complex design projects, we specialize in crafting custom landing pages, small business websites, e-commerce stores,and a wide range ofdynamic platforms. </p>
+                                </div>
+                            </div>
+                            <div class="service-item">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <div class="service-content">
+                                    <h4 class="service-title">Search Engine Optimization (SEO)</h4>
+                                    <p class="text">Experience the transformative power of our SEO service and unlock your website's true potential.We'll skyrocket your Google rankings, enhance user experience, generate quality leads, and drive sales.</p>
+                                </div>
+                            </div>
+                           
+                        
+                    </div>
+                    <div class="box-one">
+                       
+                        <div class="service-item">
+                            <i class="fa-brands fa-meta"></i>
+                            <div class="service-content">
+                                <h4 class="service-title">Social Media Marketing</h4>
+                                <p class="text">
+                                        Maximize your reach and conversions with our targeted social media marketing packages. We guarantee to connect your business, products, services, or events with the right audience on Facebook, WhatsApp Twitter, Instagram, Linkedin and TikTok, turning them into loyal customers.</p>
+                            </div>
+                        </div>
+                            <div class="service-item">
+                                <i class="fa-brands fa-google"></i>
+                                <div class="service-content">
+                                    <h4 class="service-title">Google and Youtube Ads</h4>
+                                    <p class="text">Supercharge your digital marketing strategy with our Google and YouTube Ads services. Our targeted campaigns leverage Google's PPC ads to acquire quality leads, engage your audience, and drive unparalleled results.</p>
+                                </div>
+                            </div>
+                      
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="offset call-to-act">
+            <div class="parallax">
+                <div class="call-content">
+                    <h3 class="call-title">Take your Digital Marketing to the Next level</h3>
+                    <p class="text">Request a proposal today and let us craft a customized strategy tailored to your business needs. Unlock your online potential with us.</p>
+                </div>
+                <div class="call-news main-btn">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <a href="#contact">GET PROPOSAL</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Seciton -->
+        <section class="offset pricing" id="pricing">
+            <h3>Pricing</h3>
+            <h6>Here are our popular service packages and pricing plans.</h6>
+
+            <!-- Basic Website -->
+            <div class="table">
+                <div class="basic">
+                    <div class="basic-head">
+                        <h4>Basic Website </h4>
+                        <span>ONE TIME PAYMENT</span>
+                    </div>
+                    <div class="price">
+                        <span class="sign">KES.</span>
+                        <span class="currency">20,000 </span>
+                        <span class="product">/ WEBSITE</span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>Domain Name and 12 Months Hosting</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Premium Designed Website (5 pages Max)</li>
+                        
+                        <li><i class="fa-solid fa-circle-check"></i>KES 2,000 per extra page</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Responsive On All Devices</li>
+                        <!-- <li><i class="fa-solid fa-circle-check"></i>Campaign Landing Pages (1)</li> -->
+                        <li><i class="fa-solid fa-circle-check"></i>Lead Capture Website Form (1)</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Basic Optimization (On-page SEO)</li>
+                        <!-- <li><i class="fa-solid fa-circle-check"></i>Social Media & Blog Integration</li>
+                        <li><i class="fa-solid fa-circle-check"></i>WhatsApp Chat Functionality</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Website Analytics Integrated</li> -->
+                        <li><i class="fa-solid fa-circle-check"></i>Website Security Firewall</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Delivery Time (14 Business Days)</li>
+                        <li><i class="fa-solid fa-circle-check"></i>1 Month Support</li>
+
+                    </ul>
+                    <div class="hero-btn price-btn">
+                        <a class="main-btn " href="#">REQUEST A QUOTE</a>
+                    </div>
+                </div>
+            
+
+            <!-- Standard Digital Marketing -->
+            
+                <div class="basic standard">
+                    <div class="basic-head">
+                        <h4>Standard Digital Marketing </h4>
+                        <span>MONTHLY PAYMENT</span>
+                    </div>
+                    <div class="price">
+                        <span class="sign">KES.</span>
+                        <span class="currency">35,000 </span>
+                        <span class="product">/ CAMPAIGN</span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>3 Social Media Platforms</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Themed 30-Day Content Calendar</li>
+                        
+                        <li><i class="fa-solid fa-circle-check"></i>12 Campaign Posts</li>
+                        <!-- <li><i class="fa-solid fa-circle-check"></i>Responsive On All Devices</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Campaign Landing Pages (1)</li> -->
+                        <li><i class="fa-solid fa-circle-check"></i>Media Buying & Ads (Ksh. 8,000)</li>
+                        <li><i class="fa-solid fa-circle-check"></i>5 Branded Posts</li>
+                        <!-- <li><i class="fa-solid fa-circle-check"></i>Social Media & Blog Integration</li>
+                        <li><i class="fa-solid fa-circle-check"></i>WhatsApp Chat Functionality</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Website Analytics Integrated</li> -->
+                        <li><i class="fa-solid fa-circle-check"></i>5 Stories </li>
+                        <li><i class="fa-solid fa-circle-check"></i>Monthly Report (1)</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Payment Terms 60% - Down-payment to commence campaign</li>
+
+                    </ul>
+                    <div class="hero-btn price-btn">
+                        <a class="main-btn  btn-two" href="#">REQUEST A QUOTE</a>
+                    </div>
+                </div>
+          
+            <!-- Premium Website -->
+          
+                <div class="basic">
+                    <div class="basic-head">
+                        <h4>Premium Website Platform </h4>
+                        <span>ONE TIME PAYMENT</span>
+                    </div>
+                    <div class="price">
+                        <span class="sign">KES.</span>
+                        <span class="currency">45,000 </span>
+                        <span class="product">/ WEBSITE</span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i>Domain Name and 12 Months Hosting</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Premium Designed Website (10 pages max)</li>
+                        <<li><i class="fa-solid fa-circle-check"></i>KES 2,000 per extra page</li> 
+                         <li><i class="fa-solid fa-circle-check"></i>Responsive On All Devices</li>
+                        <!-- <li><i class="fa-solid fa-circle-check"></i>Campaign Landing Page</li> -->
+                        <li><i class="fa-solid fa-circle-check"></i>Lead Capture Website Form</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Basic Optimization (On-page SEO)</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Social Media & Blog Integration</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Payment Integration</li>
+                        <!-- <li><i class="fa-solid fa-circle-check"></i>WhatsApp Chat Functionality</li> -->
+                        <li><i class="fa-solid fa-circle-check"></i>Google Analytics Integrated</li> 
+                        <li><i class="fa-solid fa-circle-check"></i>Website Security Firewall</li>
+                        <li><i class="fa-solid fa-circle-check"></i>Delivery Time (25 Business Days)</li>
+                        <li><i class="fa-solid fa-circle-check"></i>1 Month Support</li>
+
+                    </ul>
+                    <div class="hero-btn price-btn">
+                        <a class="main-btn  btn-two" href="#">REQUEST A QUOTE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+
+                   
+            <form  class="form" method="POST">
+                
+                    <div class="title">
+                        <h3>Need a Customised Quotation or Proposal?</h3>
+                        <h6>Please fill in this form so we can better understand what you need</h6>
+                        <p> * indicates a required field.</p>
+                        
+                    </div>
+                    
+                    <div class="description">
+                        <h4>Personal Details</h4>
+                    </div>
+                   
+                    <div class="row first-row">
+                        <div>
+                            <label for="first-name">First Name*</label><br>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name*</label><br>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                        
+                    </div>
+                    <div class="row second-row">
+                        <div>
+                            <label for="email">Email*</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number*</label><br>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <h4>Your Request Details</h4>
+                        <p>Tell us more about your preferred service(s)</p>
+                    </div>
+                   <div class="row third-row">
+                    <div>
+                        <label for="request">Do you need a Quotation or a Proposal?</label><br>
+                        <select id="request" name="request" required>
+                            <option value="">--Select an Option--</option>
+                            <option value="Quotation">Quotation</option>
+                            <option value="Proposal">Proposal</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="budget">What is your budget?</label><br>
+                    <select id="budget" name="budget" required>
+                        <option value="">--Select an Option--</option>
+                        <option value="basic">KES. 15,000 - 35,000</option>
+                        <option value="standard">KES. 36,000 - 70,000</option>
+                        <option value="premium">KES. 71,000 - 150,000</option>
+                        <option value="pro-premium">KES. 150,000 - 250,000</option>
+                        <option value="msx-premium">Above KES. 250,000</option>                        
+                    </select>
+                    </div>
+                   
+                    
+                   </div>
+                   <div class="description">
+                        <h6>What Service(s) are you interested in?</h6>
+                   </div>
+                   <div class="check-service">
+                   
+                    
+                    <div class="col">
+                        
+                    <input type="checkbox" id="check-service" name="check-service" value="Basic Website">
+                    <label for="check-service">Basic Website</label><br>
+                    <input type="checkbox" id="check-service" name="check-service" value="e-commerce Website">
+                    <label for="check-service">e-commerce Website</label><br>
+                    <input type="checkbox" id="check-service" name="check-service" value=" Web App">
+                    <label for="check-service">Web App</label><br>
+                    <input type="checkbox" id="check-service" name="check-service" value=" Search Engine Optimization">
+                    <label for="check-service">Search Engine Optimization (SEO)</label><br>
+                    <input type="checkbox" id="check-service" name="check-service" value="General Digital Marketing">
+                    <label for="check-service">General Digital Maketing</label><br>
+                    </div>
+                    <div class="col"> 
+                        <input type="checkbox" id="check-service" name="check-service" value="Social Media Marketing">
+                        <label for="check-service">Social Media Maketing</label><br>
+                        <input type="checkbox" id="check-service" name="check-service" value="Email Marketing">
+                        <label for="check-service">Email Maketing</label><br>
+                        <input type="checkbox" id="check-service" name="check-service" value="Graphic Design">
+                        <label for="check-service">Graphic Design</label><br>
+                        <input type="checkbox" id="check-service" name="check-service" value="PPC Advertising">
+                        <label for="additional-service-1">PPC Advertising</label><br>
+                        <input type="checkbox" id="check-service" name="check-service" value="Google Ads">
+                        <label for="additional-service-1">Google Ads </label><br>
+                        </div>
+                   
+                </div>
+                <div class="text-area description">
+                    <h6>Further Description</h6>
+                </div>
+                <textarea class="text-area" placeholder="Tell us a bit more about your request or business needs, objectives and scope of work." name="" id="" cols="30" rows="10"></textarea>
+    
+                <ul class="hero-btn">
+                    <a href="" class="main-btn btn-two">Submit</a>
+                </ul>
+            </form>
+                
+        </section>
+
+      
+    </section>
+
+    <!-- Popup modal -->
+    <section id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>     
+      
+            <img src="images/9.jpg" alt=""> 
+        <form  class="form" method="POST">
+            
+                <div class="title">
+                    <h3>Need a Customised Quotation or Proposal?</h3>
+                    <h6>Please fill in this form so we can better understand what you need</h6>
+                    <p> * indicates a required field.</p>
+                    
+                </div>
+                
+                <div class="description">
+                    <h4>Personal Details</h4>
+                </div>
+            
+                <div class="row first-row">
+                    <div>
+                        <label for="first-name">First Name*</label><br>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name*</label><br>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    
+                </div>
+                <div class="row second-row">
+                    <div>
+                        <label for="email">Email*</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number*</label><br>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="description">
+                    <h4>Your Request Details</h4>
+                    <p>Tell us more about your preferred service(s)</p>
+                </div>
+            <div class="row third-row">
+                <div>
+                    <label for="request">Do you need a Quotation or a Proposal?</label><br>
+                    <select id="request" name="request" required>
+                        <option value="">--Select an Option--</option>
+                        <option value="Quotation">Quotation</option>
+                        <option value="Proposal">Proposal</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="budget">What is your budget?</label><br>
+                <select id="budget" name="budget" required>
+                    <option value="">--Select an Option--</option>
+                    <option value="basic">KES. 15,000 - 35,000</option>
+                    <option value="standard">KES. 36,000 - 70,000</option>
+                    <option value="premium">KES. 71,000 - 150,000</option>
+                    <option value="pro-premium">KES. 150,000 - 250,000</option>
+                    <option value="msx-premium">Above KES. 250,000</option>                        
+                </select>
+                </div>
+            
+                
+            </div>
+            <div class="description">
+                    <h6>What Service(s) are you interested in?</h6>
+            </div>
+            <div class="check-service">
+            
+                
+                <div class="col">
+                    
+                <input type="checkbox" id="check-service" name="check-service" value="Basic Website">
+                <label for="check-service">Basic Website</label><br>
+                <input type="checkbox" id="check-service" name="check-service" value="e-commerce Website">
+                <label for="check-service">e-commerce Website</label><br>
+                <input type="checkbox" id="check-service" name="check-service" value=" Web App">
+                <label for="check-service">Web App</label><br>
+                <input type="checkbox" id="check-service" name="check-service" value=" Search Engine Optimization">
+                <label for="check-service">Search Engine Optimization (SEO)</label><br>
+                <input type="checkbox" id="check-service" name="check-service" value="General Digital Marketing">
+                <label for="check-service">General Digital Maketing</label><br>
+                </div>
+                <div class="col"> 
+                    <input type="checkbox" id="check-service" name="check-service" value="Social Media Marketing">
+                    <label for="check-service">Social Media Maketing</label><br>
+                    <input type="checkbox" id="check-service" name="check-service" value="Email Marketing">
+                    <label for="check-service">Email Maketing</label><br>
+                    <input type="checkbox" id="check-service" name="check-service" value="Graphic Design">
+                    <label for="check-service">Graphic Design</label><br>
+                    <input type="checkbox" id="check-service" name="check-service" value="PPC Advertising">
+                    <label for="additional-service-1">PPC Advertising</label><br>
+                    <input type="checkbox" id="check-service" name="check-service" value="Google Ads">
+                    <label for="additional-service-1">Google Ads </label><br>
+                    </div>
+            
+            </div>
+            <div class="text-area description">
+                <h6>Further Description</h6>
+            </div>
+            <textarea class="text-area" placeholder="Tell us a bit more about your request or business needs, objectives and scope of work." name="" id="" cols="15" rows="5"></textarea>
+
+            <ul class="hero-btn">
+                <a href="" class="main-btn btn-two">Submit</a>
+            </ul>
+        </form>
+        
+        </div>
+    </section>
+
+    <footer>
+        <div class="row-one">
+            <a class="logo" href="#">
+                <img src="images/round-logo.png" alt="logo">
+            </a>
+
+            <ul>                
+                <li><a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy; 2023 Pound O Clock Marketing Agency <br> All Rights Reserved.</p>
+    </footer>
+    
+    <!-- ADD JQUERY CDN -->
+    <script
+  src="https://code.jquery.com/jquery-3.7.0.min.js"
+  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+  crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
