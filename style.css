@@ -977,9 +977,9 @@ footer p{
      .wrapper{
         margin: 4rem 1.5rem 10rem 1.5rem;
     }
-    /* .services{
+    .services{
         padding: 1rem;
-    } */
+    } 
     .services .service-content .content-box{
         width: 100%;
         display: flex;
