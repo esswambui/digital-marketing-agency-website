@@ -1159,7 +1159,7 @@ footer p{
     
     .wrapper{
         margin: 4rem 0;
-        max-width: 90%;
+        max-width: 400px;
     }
     .services{
         display: flex;
