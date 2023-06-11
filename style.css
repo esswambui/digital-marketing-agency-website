@@ -1122,13 +1122,13 @@ footer p{
     }
   
     .hero-text{
-        width: 80%;
-        bottom: 50%;
+        width: 100%;
+        bottom: 30%;
      }
    
     .hero-text h2{
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size: 2rem;
+        line-height: 2rem;
     }
     .hero-text h6{
         font-size: 1.6rem;
@@ -1145,7 +1145,7 @@ footer p{
     
     .wrapper{
         margin: 4rem 0;
-        max-width: 50rem;
+        max-width: 100%;
     }
     .services{
         display: flex;
