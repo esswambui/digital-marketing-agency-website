@@ -1113,8 +1113,242 @@ footer p{
        
     }
 
+    .nav .logo img, footer .logo img {
+        height: 50px;
+    }
+
+    .nav .navbar-social{
+        margin-right: 6rem;
+        top: 90vh;
+    }
+  
+    .hero-text{
+        width: 80%;
+        bottom: 0;
+     }
+   
+    .hero-text h2{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .hero-text h6{
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    .hero-text .hero-btn .main-btn{
+        font-size: 1.6rem;
+        line-height: 4rem;
+        margin-top: 0.8rem;
+    }
+    .hero-text .hero-btn{
+        margin-top: 3rem;
+    }
+    
+    .wrapper{
+        margin: 4rem 0;
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        margin: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 0;
+    }
+    .services .agency-name{
+        color: #0A7AC9; 
+        font-size: 5rem;
+        line-height: 6rem;
+        font-weight: 600;
+    }
+    .services > .service-content{
+        display: flex;
+        flex-direction: column;
+            justify-content: center;
+        align-items: center;
+        margin: 6rem 0;
+        padding: 2rem;
+        margin-bottom: 5rem;
+        /* flex-wrap: wrap; */
+        
+    }
+    .services .service-content .content-image{
+        width: 100%;
+        
+    }
+    .services .service-content .content-image img{
+        width: 100%;
+        height: 25vh;
+        
+    }
+    .services > .service-content{
+       
+        margin: 4rem 0;
+        padding: 0.5rem;
+        margin-bottom: 4rem;
+        
+    }
+    .services .service-content .content-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem;
+        /* flex-wrap: wrap; */
+    }
+    .services .service-content .content-box .box-one{
+        
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+        padding: 2rem 1rem;
+    }
+    .services .service-content .content-box .box-one .service-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 3.2rem;
+        padding:2rem;
+        width: 100%;
+        /* box-shadow: 0 0.2rem 0.5rem 0.2rem rgba(0, 151, 178, 0.4); */
+        box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(5, 176, 178, 0.4);
+    }
+    .services .service-content .content-box .box-one .service-item h4{
+        color:#0A7AC9;
+        margin-bottom: 1rem;
+    }
+    .services h3,
+    .services .agency-name{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .services h4{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .services h6{
+        font-size: 1.6rem;
+        line-height: 3rem;
+        margin-bottom: 4rem;
+    }
+    .servics p{
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    .services .service-content .content-image img{
+        height: 25vh;
+        
+    }
+
+    .pricing .table{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing h3{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .pricing h6{
+        font-size: 1.6rem;
+        line-height: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .call-to-act{
+        margin-bottom: 8rem;
+    }
+    .call-to-act .parallax{
+        width: 90%;
+    }
+    .call-to-act .parallax h3{
+        font-size: 3rem;
+        line-height: 4rem;
+    } 
+    .call-to-act .parallax h6{
+        font-size: 1.6rem;
+        line-height: 3rem;
+    } 
+
+    .contact .form{
+        width: 90%;
+
+    }
+    .contact .form .description{
+        padding: 1rem;
+    }
+    .contact .form h3{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    .contact .form h4{
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+    .contact .form .title+.description h4{
+        margin-bottom: 2rem;
+    }
+    .contact .form h6{
+        font-size: 1.6rem;
+        line-height: 3rem;
+        margin-top: 1.5rem 0;
+    }
+    .contact .form p,
+    .contact .form .row label,
+    .contact .form .row select,
+    .contact .form .check-service label{
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+    .contact .form .first-row,
+    .contact .form .second-row,
+    .contact .form .third-row,
+    .contact .form .check-service{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 2.4rem 0;
+    }
+    .contact .form .first-row{
+        margin: 0;
+    }
+    .contact .form .first-row input,
+    .contact .form .second-row input{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .contact .form .hero-btn{
+        width: 10rem;
+    }
+    .contact .form .hero-btn a{
+       
+        border-radius: 2rem;
+        padding: 0 3rem;
+      
+        font-size: 1.6rem;
+       
+    }
+    
+    footer p{
+    font-size: 1.6rem;
+    }
+    
+
+    .contact .form .third-row div{
+    
+        margin-bottom: 2rem;
+    
+    }
+
+
  }
- /*   .nav .logo img, footer .logo img {
+   /*/* .nav .logo img, footer .logo img {
         height: 70px;
     }
     .nav .menu-bar{
@@ -1186,11 +1420,11 @@ footer p{
         align-items: center;
         /* margin: 6rem 0;
         padding: 2rem;
-        margin-bottom: 5rem; */
+        margin-bottom: 5rem; *//*
         margin: 4rem 0;
         padding: 0;
         margin-bottom: 4rem;
-        /* flex-wrap: wrap; */
+        /* flex-wrap: wrap; 
         
     }
     .services .service-content .content-image{
@@ -1210,7 +1444,7 @@ footer p{
         align-items: flex-start;
         padding: 1rem;
         /* flex-wrap: wrap; */
-    }
+    /* }
     .services .service-content .content-box .box-one{
         
         justify-content: flex-start;
@@ -1361,7 +1595,7 @@ footer p{
     
       .modal .modal-content .form {
         /* margin: 0 ;
-        padding: 0; */
+        padding: 0; *//*
         width: 90%;
         height: 100%;
         box-shadow: 0 0.1rem 9.5rem 0.2rem rgba(5, 176, 178, 0.4);
@@ -1381,7 +1615,7 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* margin: 2.4rem 0; */
+        /* margin: 2.4rem 0; *//*
     }
     .modal-content .form .row div{
            width: 80%;
@@ -1402,7 +1636,7 @@ footer p{
     .modal-content .form  div select{
         height: 3rem; 
         border: 1px solid #cbced1;
-        /* border-radius : 0.5rem; */
+        /* border-radius : 0.5rem; *//*
         padding: 1rem 1.5rem;
         font-size: 1.2rem;
         outline: none;
@@ -1465,9 +1699,4 @@ footer p{
 
 
     
-}
-@media only screen and (max-width: 400px){
-    .wrapper{
-        max-width: 360px;
-    }
-} */
+}*/
