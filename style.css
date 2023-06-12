@@ -1166,17 +1166,17 @@ footer p{
 
   
     .hero-text{
-        width: 80%;
+        width: 100%;
         bottom: 0;
      }
    
     .hero-text h2{
-        font-size: 2.4rem;
-        line-height: 3rem;
+        font-size: 3rem;
+        line-height: 4rem;
     }
     .hero-text h6{
-        font-size: 1.2rem;
-        line-height: 1.5rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
     }
     .hero-text .hero-btn .main-btn{
         font-size: 1.2rem;
@@ -1187,10 +1187,7 @@ footer p{
         margin-top: 2rem;
     }
     
-    .wrapper{
-        padding: 4rem 0;
-        width: 100vw;
-    }
+   
 
  
 
