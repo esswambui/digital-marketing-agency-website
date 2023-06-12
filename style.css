@@ -260,7 +260,9 @@ footer .logo img{
 /* ===================== SEERVICES SECTION ========================== */
 .wrapper{
     padding: 7rem;
-    max-width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    
 }
 .services{
     display: flex;
@@ -1166,8 +1168,8 @@ footer p{
 
   
     .hero-text{
-        width: 100%;
-        bottom: 0;
+        width: 90%;
+        bottom: -5%;
      }
    
     .hero-text h2{
