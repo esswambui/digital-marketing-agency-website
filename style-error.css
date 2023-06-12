@@ -9,6 +9,12 @@ html{
 body{
     font-family: "Poppins", sans-serif;
 }
+.container{
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
 a{
     text-decoration: none;
 }
@@ -248,7 +254,6 @@ footer .logo img{
 
 /* ===================== SEERVICES SECTION ========================== */
 .wrapper{
-    max-width: 140rem;
     margin: 7rem auto;
 }
 .services{

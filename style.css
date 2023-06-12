@@ -892,7 +892,7 @@ footer p{
     .nav .navbar-toggler{
         display: block;
         position: absolute;
-        top: 2.6rem;
+        top: 2rem;
         right: 3rem;
         z-index: 100000;
     }
@@ -1097,25 +1097,27 @@ footer p{
 
 }
 @media only screen and (max-width: 541px){
-   
+    .container{
+        max-width: 500rem;
+    }
     .top-nav{
         padding:0 10%;
-        height: 3rem;
-        max-width: 350rem;
+        height: 6rem;
+        /* max-width: 350rem; */
         text-align: left;
     }
     .top-nav div{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        font-size: 0.5rem;
+        font-size: 1rem;
     }
       
    
     .top-nav span,
     .top-nav a,
     .top-nav i{
-        font-size: 0.5rem;
+        font-size: 1rem;
        
     }
     .nav{
