@@ -177,7 +177,7 @@ footer .logo img{
     position: relative; 
     height: 120vh;
     /* width: 100%;  */
-    margin: 0 4rem;
+    margin: 0;
     
     
 }
@@ -252,7 +252,7 @@ footer .logo img{
 /* ===================== SEERVICES SECTION ========================== */
 .wrapper{
     max-width: 140rem;
-    margin: 7rem auto;
+    padding: 7rem auto;
 }
 .services{
     display: flex;
@@ -960,7 +960,7 @@ footer p{
     .back{
         background-size: contain;
         background-repeat: no-repeat;
-        height: 110vh;
+       
     }
 
     .hero-text{
@@ -974,7 +974,7 @@ footer p{
      }
 
      .wrapper{
-        margin: 4rem 1.5rem 10rem 1.5rem;
+        padding: 4rem 1.5rem 10rem 1.5rem;
     }
     .services{
         padding: 1rem;
@@ -1174,6 +1174,6 @@ footer p{
     }
     
     .wrapper{
-        margin: 4rem 0;
+        padding: 4rem 0;
     }
 }
