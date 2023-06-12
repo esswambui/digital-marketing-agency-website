@@ -1186,11 +1186,10 @@ footer p{
     
     .wrapper{
         padding: 4rem 0;
+        width: 100vw;
     }
 
-    .services{
-        width: 100%;
-    }
+ 
 
     .services .service-content .content-image{
         width: 100%;
