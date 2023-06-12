@@ -258,8 +258,7 @@ footer .logo img{
 
 /* ===================== SEERVICES SECTION ========================== */
 .wrapper{
-    max-width: 140rem;
-    padding: 7rem auto;
+    padding: 7rem;
 }
 .services{
     display: flex;
@@ -657,7 +656,8 @@ footer .logo img{
     left: 0;
     width: 100%;
     height: 120vh;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
    
     background-color: rgba(0, 0, 0, 0.8);
 }
