@@ -1131,7 +1131,7 @@ footer p{
        
     }
     .nav{
-        padding: 0 5%;
+        padding: 0 10%;
     }
     .nav .logo img, footer .logo img {
         height: 60px;
@@ -1302,6 +1302,7 @@ footer p{
 
     .modal{
         height: 200vh;
+        max-width: 30rem;
     }
   
     .modal-content {
@@ -1312,7 +1313,7 @@ footer p{
          flex-direction: column; 
         justify-content: center;
         align-items: center;
-        max-height: 150vh;   
+        max-height: 200vh;   
         padding:  1rem;
         overflow-y: scroll;
         position: relative;
