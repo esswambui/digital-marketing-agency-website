@@ -71,19 +71,26 @@ p, span{
 }
 
 /* ===================================== HEADER ===================== */
+.header{
+    position: relative;
+    min-height: 20vh;
+    overflow-x: hidden;
+   
+}
  nav{
-    /* padding: 0 3rem; */
-    width: 100%;
-    /* max-width: 140rem; */
+    /* padding: 0 3rem; 
+    /* width: 100%;
+    /* max-width: 140rem; 
     /* height: 10rem; */
-    position: fixed;
+    width: 100%;
+    position: fixed; 
     z-index: 1000;
-}  
+}   
 .top-nav{
     margin: 0;
     height: 3.5rem; 
     background: white;
-    width: 100%;
+ 
 }
 
 .top-nav div{
