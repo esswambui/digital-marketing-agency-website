@@ -1107,12 +1107,12 @@ footer p{
 
 }
 @media only screen and (max-width: 541px){
-    body{
-        position: absolute;
-        width: 100vw;
-    }
+   
     .container{
-        max-width:100%;
+        max-width:100vw;
+    }
+    .header, .back, .services{
+        width: 100vw
     }
     .top-nav{
         padding:0 10%;
