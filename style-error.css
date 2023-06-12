@@ -1097,6 +1097,7 @@ footer p{
     .top-nav{
         padding:0;
         height: 6rem;
+        display: none;
     }
     .top-nav div{
         flex-direction: column;
@@ -1113,9 +1114,21 @@ footer p{
         font-size: 1.2rem;
        
     }
+    .nav{
+        padding: 0 5%;
+        
+    }
     .nav .logo img, footer .logo img {
         height: 70px;
     }
+    .nav .navbar-toggler .toggler-icon{
+        width: 1.5rem;
+        height: 0.3rem;
+        background-color: #fff;
+        margin: 0.2rem 0;
+        position: relative;
+        display: block;
+      
     .nav .menu-bar{
         top: 6rem;
     }
@@ -1137,7 +1150,7 @@ footer p{
   
     .hero-text{
         width: 80%;
-        bottom: 0;
+        bottom: -10%;
      }
    
     .hero-text h2{
