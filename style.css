@@ -1093,5 +1093,79 @@ footer p{
 
     .footer .row-one ul li a{
         color: #fff;
+    }
 
+}
+@media only screen and (max-width: 541px){
+   
+    .top-nav{
+        padding:0 10%;
+        height: 6rem;
+        max-width: 350rem;
+        text-align: left;
+    }
+    .top-nav div{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1rem;
+    }
+      
+   
+    .top-nav span,
+    .top-nav a,
+    .top-nav i{
+        font-size: 1.2rem;
+       
+    }
+    .nav .logo img, footer .logo img {
+        height: 70px;
+    }
+
+   
+
+    .nav .menu-bar{
+        top: 6rem;
+    }
+
+    .nav .navbar-social{
+        margin-right: 6rem;
+        top: 95vh;
+        align-content: center;
+       
+    }
+    .nav .navbar-social ul li a i{
+        color:#1F2D4C;
+    }
+
+    /* .back{
+        background-size: contain;
+        height: 120vh;
+    } */
+  
+    .hero-text{
+        width: 80%;
+        bottom: 0;
+     }
+   
+    .hero-text h2{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    .hero-text h6{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .hero-text .hero-btn .main-btn{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-top: 0.8rem;
+    }
+    .hero-text .hero-btn{
+        margin-top: 2rem;
+    }
+    
+    .wrapper{
+        margin: 4rem 0;
+    }
 }
