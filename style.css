@@ -269,6 +269,7 @@ footer .logo img{
     text-align: center; 
     margin: 7rem;
     margin-bottom: 4rem;
+    
 }
 .services .agency-name{
     color: #0A7AC9; 
@@ -1185,6 +1186,10 @@ footer p{
     
     .wrapper{
         padding: 4rem 0;
+    }
+
+    .services{
+        width: 100%;
     }
 
     .services .service-content .content-image{
