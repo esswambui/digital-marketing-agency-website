@@ -1190,8 +1190,17 @@ footer p{
     }
     
    
-
- 
+    .services{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: center; 
+        margin: 0;
+        margin-top: 4rem;
+        margin-bottom: 0;
+        padding: 0;
+    }
 
     .services .service-content .content-image{
         width: 100%;
