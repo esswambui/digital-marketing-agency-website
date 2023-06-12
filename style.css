@@ -1101,7 +1101,7 @@ footer p{
 }
 @media only screen and (max-width: 541px){
     .container{
-        max-width: 500rem;
+        max-width: 350rem;
     }
     .top-nav{
         padding:0 10%;
