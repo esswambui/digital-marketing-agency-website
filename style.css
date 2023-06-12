@@ -1100,7 +1100,7 @@ footer p{
    
     .top-nav{
         padding:0 10%;
-        height: 6rem;
+        height: 3rem;
         max-width: 350rem;
         text-align: left;
     }
@@ -1108,18 +1108,21 @@ footer p{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
       
    
     .top-nav span,
     .top-nav a,
     .top-nav i{
-        font-size: 1.2rem;
+        font-size: 0.5rem;
        
     }
+    .nav{
+        padding: 0 5%;
+    }
     .nav .logo img, footer .logo img {
-        height: 70px;
+        height: 60px;
     }
 
    
