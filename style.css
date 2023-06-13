@@ -975,9 +975,10 @@ footer p{
     .back{
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
        
     }
-
+    
     .hero-text{
         width: 80%;
         bottom: 5%;
@@ -1154,7 +1155,7 @@ footer p{
     
     .top-nav{
         padding:0 10%;
-        height: 6rem;
+        height: 5rem;
         /* max-width: 350rem; */
         text-align: left;
     }
@@ -1194,10 +1195,10 @@ footer p{
        
     }
     .nav .navbar-social ul li a i{
-        color:#1F2D4C;
+        color:
+        #1F2D4C;
     }
 
-  
     .hero-text{
         width: 80%;
         bottom: 0;
@@ -1406,6 +1407,9 @@ footer p{
         padding-bottom: 1.5rem;
         margin-bottom: 0;
     }
+    .contact .form .description p{
+        margin-top:0.7rem;
+    }
     .contact .form h3{
         font-size: 2.4rem;
         line-height: 3rem;
@@ -1433,11 +1437,14 @@ footer p{
         font-size: 1.3rem;
         line-height: 2rem;
     }
-    contact .form .row select option,
+    .contact .form .row select,
     .contact .form p{
         font-size: 1.3rem;
         line-height: 1.5rem;
         font-weight: 300;
+    }
+    .contact .form .row select{
+        font-size: 1rem;
     }
     .contact .form .first-row,
     .contact .form .second-row,
@@ -1615,7 +1622,7 @@ footer p{
         background-position:center;
     }
     .hero-text{
-        bottom: -20%;
+        bottom: -23%;
         width: 90%;
     }
     .hero-text h2{
