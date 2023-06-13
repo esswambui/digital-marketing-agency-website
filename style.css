@@ -841,7 +841,11 @@ footer .row-one a{
     font-size: 3rem;
     padding-right: 3rem;;
 }
-footer p{
+ footer .footer-span{
+    display: block;
+    white-space: nowrap;
+} 
+footer p, footer .footer-span{
     color: #fff;
     font-size: 1.6rem;
     margin-top: 3rem;
@@ -1015,7 +1019,7 @@ footer p{
         padding:0;
 
        
-        
+    }
       
     .services h3{
         font-size: 4rem;
@@ -1603,11 +1607,21 @@ footer p{
     .modal-content .form .text-area h6{
         display: none;
     }
+    footer {
+        max-width: 40rem;
+        padding: 4rem;
+        
+    }
+    footer .row-one a{
+        font-size: 2rem;
+    }
+   
     
     
-    footer p{
-    font-size: 1.2rem;
+    footer p, footer .footer-span{
+    font-size: 1rem;
     line-height: 1.8rem;
+    margin-top: 1rem;
     }
     
 
