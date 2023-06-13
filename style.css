@@ -1140,7 +1140,7 @@ footer p{
     }
     h6{
         font-size: 1.6rem;
-        line-height: 2.rem;
+        line-height: 2rem;
         color:#1F2D4C;
         margin-top: 1rem;
     }
@@ -1201,7 +1201,7 @@ footer p{
 
   
     .hero-text{
-        width: 90%;
+        width: 80%;
         bottom: -5%;
      }
    
@@ -1212,33 +1212,38 @@ footer p{
     .hero-text h6{
         font-size: 1.6rem;
         line-height: 2rem;
+        padding: 1rem;
+        background-color: rgba(0,0,0, 0.25);
     }
     .hero-text .hero-btn .main-btn{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         line-height: 1.5rem;
         margin-top: 0.8rem;
     }
     .hero-text .hero-btn{
         margin-top: 2rem;
     }
-    
-   
+
+  .wrapper{
+    max-width: 40rem;
+  }
     .services{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        text-align: left; 
-        margin: 0;
-        margin-top: 4rem;
-        margin-bottom: 0;
-        padding: 1rem;
-        word-wrap: break-word; 
+        text-align: center; 
+        margin: 1rem auto;
+        
+        padding: 5% 2%;
+        word-wrap:break-word; 
+        width: 90%;
+        
 
     }
 
     .services .service-content .content-image{
-        width: 100%;
+        width: 90%;
         
     }
     .services .service-content .content-image img{
@@ -1248,15 +1253,12 @@ footer p{
     }
     .services > .service-content{
        
-        margin: 4rem 0;
+        margin: 2rem 0;
         padding: 0;
-        margin-bottom: 4rem;
         
     }
     .services .agency-name{
         color: #0A7AC9; 
-        font-size: 3rem;
-        line-height: 4rem;
         font-weight: 600;
     }
 
@@ -1267,6 +1269,7 @@ footer p{
         justify-content: center;
         align-items: flex-start;
         padding: 1rem;
+        margin-top: 1rem;
         /* flex-wrap: wrap; */
     }
     .services .service-content .content-box .box-one{
@@ -1274,15 +1277,21 @@ footer p{
         justify-content: flex-start;
         align-items: flex-start;
         
-        padding: 2rem 1rem;
+        padding: 1rem 0;
     }
    
     .services .service-content .content-box .box-one .service-item h4{
         color:#0A7AC9;
         margin-bottom: 1rem;
-        font-size: 2.4rem;
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 500;
+    }
+    .services .service-content .content-box .box-one .service-item i{
+        font-size: 3rem;
         line-height: 3rem;
     }
+     
     .services h3,
     .services .agency-name{
         font-size: 3rem;
@@ -1295,25 +1304,22 @@ footer p{
         margin-bottom: 4rem;
     }
     .servics p{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         line-height: 3rem;
         word-wrap: break-word; 
     }
-    .services .service-content .content-image img{
-        height: 25vh;
-        
+
+    .pricing{
+        width: 90%;
     }
-
-
-
-
-
-
-
     .pricing .table{
+        
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .pricing .basic{
+        width: 80%;
     }
 
     .pricing h3{
@@ -1337,32 +1343,48 @@ footer p{
         line-height: 4rem;
     } 
     .call-to-act .parallax h6{
-        font-size: 1.6rem;
-        line-height: 3rem;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
     } 
 
+
+    .contact {
+        width: 100%;
+
+    }
     .contact .form{
         width: 90%;
 
+    }
+    .contact .form .title{
+        padding: 2rem;
+    }
+    .contact .form .title p{
+        margin-top: 1rem;
+        font-weight: 200;
     }
     .contact .form .description{
         padding: 1rem;
     }
     .contact .form h3{
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size: 2.4rem;
+        line-height: 3rem;
+        font-weight: 500;
     }
     .contact .form h4{
-        font-size: 2rem;
-        line-height: 3.5rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        font-weight: 500;
     }
     .contact .form .title+.description h4{
-        margin-bottom: 2rem;
-    }
+        margin-top: 2rem;
+        padding-bottom: 1.5rem;
+    } 
     .contact .form h6{
-        font-size: 1.6rem;
-        line-height: 3rem;
-        margin-top: 1.5rem 0;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-top: 1.5rem;
+        font-weight: 500;
     }
     .contact .form p,
     .contact .form .row label,
@@ -1370,6 +1392,11 @@ footer p{
     .contact .form .check-service label{
         font-size: 1.4rem;
         line-height: 2.5rem;
+    }
+    .contact .form p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 300;
     }
     .contact .form .first-row,
     .contact .form .second-row,
@@ -1394,10 +1421,10 @@ footer p{
     }
     .contact .form .hero-btn a{
        
-        border-radius: 2rem;
-        padding: 0 3rem;
-      
-        font-size: 1.6rem;
+        border-radius: 1.6rem;
+        padding: 0 2rem;
+        font-weight: 700;      
+        font-size: 1.4rem;
        
     }
 
@@ -1483,22 +1510,22 @@ footer p{
         width: 100%;
     }
     .modal-content .form  p{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 600;
     }
     .modal-content .form  div select option{
-        font-size: 1.2rem;
+        font-size: 1rem;
   
     }
     .modal-content .form  h6{
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
     }
     .modal-content .form  h4{
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     .modal-content .form  h3{
-        font-size: 2rem;
+        font-size: 1.8rem;
         line-height: 2rem;
         color: white;
     }    
@@ -1506,19 +1533,19 @@ footer p{
         width: 10rem;
     }
     .modal .form .hero-btn a{
-        border-radius: 2rem;
-        padding: 0 3rem;
-        font-size: 1.6rem;
+        border-radius: 1.6rem;
+        padding: 0 2rem;
+        font-size: 1.2rem;
     }
     .modal-content .close{
-        font-size: 2rem;
+        font-size: 1.6rem;
         padding: 0.5rem 1rem;
     }
     
     
     footer p{
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     }
     
 
