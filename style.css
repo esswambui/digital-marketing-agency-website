@@ -1202,7 +1202,7 @@ footer p{
   
     .hero-text{
         width: 80%;
-        bottom: -5%;
+        bottom: -10%;
      }
    
     .hero-text h2{
@@ -1211,7 +1211,7 @@ footer p{
     }
     .hero-text h6{
         font-size: 1.6rem;
-        line-height: 2rem;
+        line-height: 2.4rem;
         padding: 1rem;
         background-color: rgba(0,0,0, 0.25);
     }
@@ -1237,7 +1237,7 @@ footer p{
         
         padding: 5% 2%;
         word-wrap:break-word; 
-        width: 90%;
+        width: 100%;
         
 
     }
@@ -1276,9 +1276,21 @@ footer p{
         
         justify-content: flex-start;
         align-items: flex-start;
-        
         padding: 1rem 0;
     }
+    .services .service-content .content-box.box-one:last-child{
+        padding: 0;
+        margin:0;
+    }
+    .services .service-content .content-box .box-one .service-item {
+        padding:2rem;
+        box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(5, 176, 178, 0.2);
+    }
+    .services .service-content .content-box .box-one:last-child {
+        padding:2rem;
+      }
+
+    
    
     .services .service-content .content-box .box-one .service-item h4{
         color:#0A7AC9;
@@ -1310,7 +1322,7 @@ footer p{
     }
 
     .pricing{
-        width: 90%;
+        width: 100%;
     }
     .pricing .table{
         
@@ -1319,7 +1331,19 @@ footer p{
         align-items: center;
     }
     .pricing .basic{
-        width: 80%;
+        width: 90%;
+    }
+    .pricing .basic .price .sign {
+        font-size: 1.4rem;
+    }
+    .pricing .basic .price .currency {
+        font-size: 3rem;
+    }
+    .pricing .basic .price .product {
+        font-size: 1.2rem;
+    }
+    .pricing .basic ul li{
+        line-height: 2rem;
     }
 
     .pricing h3{
@@ -1361,10 +1385,13 @@ footer p{
     }
     .contact .form .title p{
         margin-top: 1rem;
-        font-weight: 200;
+        font-weight: 300;
     }
     .contact .form .description{
         padding: 1rem;
+        text-align: left;
+        margin-left: 0;
+        padding-bottom: 1.5rem;margin-bottom: 0;
     }
     .contact .form h3{
         font-size: 2.4rem;
@@ -1427,11 +1454,12 @@ footer p{
         font-size: 1.4rem;
        
     }
+    .contact .form textarea::placeholder {
+        font-family: "Poppins" sans-serif;
+        font-size: 1rem;
+      }
 
-    .modal{
-        height: 200vh;
-        max-width: 30rem;
-    }
+    
   
     .modal-content {
         background-color: #fff;
@@ -1441,7 +1469,7 @@ footer p{
          flex-direction: column; 
         justify-content: center;
         align-items: center;
-        max-height: 200vh;   
+        max-height: 100vh;   
         padding:  1rem;
         overflow-y: scroll;
         position: relative;
@@ -1467,6 +1495,13 @@ footer p{
     .modal .form .description{
         text-align: center;
     }
+    .modal .form .details{
+        margin-bottom: 0;
+    }
+    .modal .form textarea{
+        margin: 0;
+        padding: 0;
+    }
       .modal .modal-content .form .row,
       .modal-content .form .check-service{
         
@@ -1488,6 +1523,7 @@ footer p{
         margin-top:0;
     }
     .modal-content .form .third-row div{
+        display: none;
         height: 10rem;
     }
     .modal-content .form .row input,
