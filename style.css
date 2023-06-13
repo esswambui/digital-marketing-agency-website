@@ -1122,6 +1122,38 @@ footer p{
     .header, .back, .services{
         width: 100vw;
     }
+    h2{
+        font-size: 3rem;
+        line-height: 4rem;
+        
+    }
+    h3{
+        font-size: 2rem;
+        line-height: 3rem;
+        font-weight: 500;
+       
+    }
+    h4{
+        font-size: 1.8rem;
+        line-height: 3rem;
+      
+    }
+    h6{
+        font-size: 1.6rem;
+        line-height: 2.rem;
+        color:#1F2D4C;
+        margin-top: 1rem;
+    }
+    p, span{
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+       
+    }
+    .main-btn{
+        font-size: 1.4rem;
+        line-height: 3rem;
+    }
+    
     .top-nav{
         padding:0 10%;
         height: 6rem;
@@ -1144,10 +1176,11 @@ footer p{
     }
     .nav{
         width: 100vw;
-        padding: 0 10%;
+        padding: 0 5%;
+        height: 6rem;
     }
     .nav .logo img, footer .logo img {
-        height: 60px;
+        height: 6rem;
     }
 
    
@@ -1195,11 +1228,13 @@ footer p{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        text-align: center; 
+        text-align: left; 
         margin: 0;
         margin-top: 4rem;
         margin-bottom: 0;
-        padding: 0;
+        padding: 1rem;
+        word-wrap: break-word; 
+
     }
 
     .services .service-content .content-image{
@@ -1223,6 +1258,50 @@ footer p{
         font-size: 3rem;
         line-height: 4rem;
         font-weight: 600;
+    }
+
+    .services .service-content .content-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem;
+        /* flex-wrap: wrap; */
+    }
+    .services .service-content .content-box .box-one{
+        
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+        padding: 2rem 1rem;
+    }
+   
+    .services .service-content .content-box .box-one .service-item h4{
+        color:#0A7AC9;
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    .services h3,
+    .services .agency-name{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+   
+    .services h6{
+        font-size: 1.6rem;
+        line-height: 3rem;
+        margin-bottom: 4rem;
+    }
+    .servics p{
+        font-size: 1.6rem;
+        line-height: 3rem;
+        word-wrap: break-word; 
+    }
+    .services .service-content .content-image img{
+        height: 25vh;
+        
     }
 
 
