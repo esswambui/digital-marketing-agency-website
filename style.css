@@ -800,7 +800,7 @@ footer .logo img{
     margin: 3rem auto;
     width: 10rem;
 }
-.modal .form .hero-btn a{
+.modal .form .hero-btn button{
     background: linear-gradient(90deg, rgba(31,45,76,1) 10%, rgba(0,0,0, 0.9) 50%, rgba(45,77,99,1) 90%);
     border: none;
     border-radius: 3rem;
@@ -1597,7 +1597,7 @@ footer p, footer .footer-span{
     .modal .form .hero-btn{
         width: 10rem;
     }
-    .modal .form .hero-btn a{
+    .modal .form .hero-btn button{
         border-radius: 1.6rem;
         padding: 0 2rem;
         font-size: 1.2rem;
