@@ -1229,6 +1229,7 @@ footer p, footer .footer-span{
 
   .wrapper{
     max-width: 40rem;
+    margin-bottom: 1rem;
   }
     .services{
         display: flex;
@@ -1323,6 +1324,7 @@ footer p, footer .footer-span{
 
     .pricing{
         width: 100%;
+        margin-bottom: 4rem;
     }
     .pricing .table{
         
@@ -1391,6 +1393,7 @@ footer p, footer .footer-span{
 
     .contact {
         width: 100%;
+        margin-bottom: 1rem;
 
     }
     .contact .form{
@@ -1610,10 +1613,24 @@ footer p, footer .footer-span{
     footer {
         max-width: 40rem;
         padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         
     }
+    footer .row-one{
+        padding: 2rem;
+
+    }
+    footer .row-one ul{
+        padding-left: 2rem;
+    } 
     footer .row-one a{
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+    footer .row-one .logo{
+        display: none;
     }
    
     
