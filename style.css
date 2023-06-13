@@ -1202,7 +1202,7 @@ footer p{
   
     .hero-text{
         width: 80%;
-        bottom: 15%;
+        bottom: 0;
      }
    
     .hero-text h2{
@@ -1591,7 +1591,7 @@ footer p{
     
     }
 }
-@media only screen and (max-width: 401px){
+@media only screen and (max-width: 341px){
     .hero-text{
         bottom: -20%;
     }
