@@ -639,7 +639,7 @@ footer .logo img{
     margin: 3rem auto;
     width: 15rem;
 }
-.contact .form .hero-btn a{
+.contact .form .hero-btn button{
     background-image: linear-gradient(to right, #0AC9B2, #0097B2 );
     border: none;
     border-radius: 3rem;
@@ -1475,7 +1475,7 @@ footer p, footer .footer-span{
     .contact .form .hero-btn{
         width: 10rem;
     }
-    .contact .form .hero-btn a{
+    .contact .form .hero-btn button{
        
         border-radius: 1.6rem;
         padding: 0 2rem;
