@@ -1397,7 +1397,7 @@ footer p, footer .footer-span{
 
     }
     .contact .form{
-        width: 90%;
+        width: 100%;
 
     }
     .contact .form .title{
@@ -1492,7 +1492,7 @@ footer p, footer .footer-span{
   
     .modal-content {
         background-color: #fff;
-        max-width: 80%;
+        max-width: 90%;
         margin: 1rem auto;
         display: flex;
          flex-direction: column; 
@@ -1623,14 +1623,8 @@ footer p, footer .footer-span{
         padding: 2rem;
 
     }
-    footer .row-one ul{
-        padding-left: 2rem;
-    } 
     footer .row-one a{
-        font-size: 2.5rem;
-    }
-    footer .row-one .logo{
-        display: none;
+        font-size: 2rem;
     }
    
     
