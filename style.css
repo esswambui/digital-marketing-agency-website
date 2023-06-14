@@ -1336,6 +1336,9 @@ footer p, footer .footer-span{
     .pricing .basic{
         width: 90%;
     }
+    .pricing .basic span {
+        font-size: 1rem;
+    }
     .pricing .basic .price .sign {
         font-size: 1.4rem;
     }
