@@ -64,7 +64,7 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
    }
 
    // Wait for 10 seconds before displaying the modal
-   setTimeout(displayModal, 5000);
+   setTimeout(displayModal, 15000);
 
 
    // When the user starts scrolling, display the modal
