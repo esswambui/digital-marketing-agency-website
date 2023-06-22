@@ -1240,7 +1240,7 @@ footer p, footer .footer-span{
     .hero-text{
         width: 80%;
         bottom: 5%;
-        transform: translate(-50%, -25%);
+        transform: translate(-50%, -22%);
      }
    
     .hero-text h2{
@@ -1266,6 +1266,7 @@ footer p, footer .footer-span{
   .wrapper{
     max-width: 40rem;
     margin-bottom: 1rem;
+    margin-top: 0;
   }
     .services{
         display: flex;
@@ -1685,22 +1686,19 @@ footer p, footer .footer-span{
     
     }
 }
-@media only screen and (max-width: 359px){
-    .back{
-        background-position:center;
-    }
+@media only screen and (max-width: 374px){
+    
     .hero-text{
-        bottom: -23%;
         width: 90%;
     }
-    .hero-text h2{
+     .hero-text h2{
         font-size: 2.6rem;
         line-height: 3.6rem;
     }
-    .hero-text h6{
+    /*.hero-text h6{
         font-size: 1.5rem;
         line-height: 2.6rem;
-    }
+    } */
 
     .call-to-act .parallax h3 {
         font-size: 2.8rem;
