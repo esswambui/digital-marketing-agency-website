@@ -1232,7 +1232,7 @@ footer p, footer .footer-span{
     }
 
     .back{
-        height: 80dvh;
+        height: 85dvh;
         background-size: 115dvh;
         background-position: top;
     } 
@@ -1240,7 +1240,7 @@ footer p, footer .footer-span{
     .hero-text{
         width: 80%;
         bottom: 5%;
-        transform: translate(-50%, -15%);
+        transform: translate(-50%, -20%);
      }
    
     .hero-text h2{
@@ -1249,8 +1249,8 @@ footer p, footer .footer-span{
     }
     .hero-text h6{
         /* display: none; */
-        font-size: 1.6rem;
-        line-height: 2.4rem;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
         padding: 1rem;
         /* background-color: rgba(0,0,0, 0.25); */
     }
