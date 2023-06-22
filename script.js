@@ -9,6 +9,7 @@ $(function() {
 
 const menu = document.getElementById("bar")
 const navBar = document.getElementById("navbar")
+const closeBar = document.getElementById("close-bar")
 const socials = document.getElementById("socials")
 // Smooth scrolling with offset
 document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
@@ -37,9 +38,11 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
     if(navBar.style.right == "-36rem"){
       navBar.style.right = "0";
       socials.style.right = "0";
+      closeBar.style.display= "block"
     }else{
       navBar.style.right = "-36rem";
       socials.style.right = "-36rem";
+      closeBar.style.display= "none"
     }
  }
 
@@ -51,7 +54,7 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
    const popupBtn = document.getElementById("popup-btn");
 
    // Get the <span> element that closes the modal
-   const span = document.getElementsByClassName("close")[0];
+   const span = document.getElementsByClassName("close")[1];
   //  var textAreas = document.getElementsByClassName("text-area");
 
    // Function to display the modal
@@ -64,7 +67,7 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
    }
 
    // Wait for 10 seconds before displaying the modal
-   setTimeout(displayModal, 25000);
+   setTimeout(displayModal, 30000);
 
 
    // When the user starts scrolling, display the modal
@@ -86,4 +89,4 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
    };
 
 
-   
+// Prevent page reload after submitting to netlify
