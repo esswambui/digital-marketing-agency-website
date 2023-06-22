@@ -1695,10 +1695,9 @@ footer p, footer .footer-span{
         font-size: 2.6rem;
         line-height: 3.6rem;
     }
-    /*.hero-text h6{
-        font-size: 1.5rem;
-        line-height: 2.6rem;
-    } */
+    .hero-text h6{
+        display: none;
+    } 
 
     .call-to-act .parallax h3 {
         font-size: 2.8rem;
