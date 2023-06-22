@@ -1687,13 +1687,17 @@ footer p, footer .footer-span{
     }
 }
 @media only screen and (max-width: 374px){
-    
+    .back {
+        height: 65dvh;
+        background-size: 100dvh;
+    }
     .hero-text{
-        width: 90%;
+        /* width: 90%; */
+        transform: translate(-50%, -30%);
     }
      .hero-text h2{
-        font-size: 2.6rem;
-        line-height: 3.6rem;
+        font-size: 2.8rem;
+        line-height: 3rem;
     }
     .hero-text h6{
         display: none;
