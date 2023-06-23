@@ -1596,13 +1596,13 @@ footer p, footer .footer-span{
       }
     .modal-content {
         background-color: #fff;
-        max-width: 70%;
+        max-width: 80%;
         margin: 1rem auto;
         display: flex;
          flex-direction: column; 
         justify-content: center;
         align-items: center;
-        height: 85vh;   
+        height: 98dvh;   
         padding:  1rem;
         overflow-y: scroll;
         position: relative;
@@ -1776,6 +1776,11 @@ footer p, footer .footer-span{
         line-height: 4rem;
         
     }
+    
+    .modal-content {
+        max-width: 80%;
+        height: 100vh;   
+    }
 }
 
 @media only screen and (max-width: 361px){
@@ -1786,9 +1791,15 @@ footer p, footer .footer-span{
         background-position: center;
     }
     .hero-text{
-        transform: translate(-50%, -30%);
+        transform: translate(-50%, -25%);
     } 
     .hero-text .hero-btn {
         display: flex;
     }
+
+    .modal-content {
+        max-width: 80%;
+        height: 120vh;   
+    }
+        
 }
