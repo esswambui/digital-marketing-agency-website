@@ -710,12 +710,15 @@ footer .logo img{
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    height: 100vh;   
+    height: 95dvh;   
     padding: 1rem 1rem;
     overflow-y: auto;
     position: relative;
+    margin: 1% auto;  
     
 }
+
+
 .modal-content .close {
     position: absolute;
     top: 0;
@@ -891,7 +894,7 @@ footer p, footer .footer-span{
 }
 
 /* ======================= MEDIA QUERIES ============================ */
-@media only screen and (max-width: 946px){
+@media only screen and (max-width: 1025px){
     .nav{
         padding: 1.6rem 8rem;
         width:100vw
@@ -939,10 +942,29 @@ footer p, footer .footer-span{
     .contact .form{
         width: 80%;
     }
+
+    .modal-content {
+        background-color: #fff;
+        max-width: 80%;       
+        
+        margin: 10% auto;     
+        height: 70vh;   
+        padding:  1rem;
+        position: relative;
+    }
+    .modal-content img {
+      
+        height: 50vh;
+      }
 }
 
 @media only screen and (max-width: 774px){
-    
+    .top-nav span,
+    .top-nav a,
+    .top-nav i{
+        font-size: 1.4rem;
+       
+    }
     .nav{
       
         padding: 1rem 2rem;
@@ -1015,16 +1037,19 @@ footer p, footer .footer-span{
     }
 
     
-    .back{
-        background-size:contain;
+     .back{
+        /*background-size:contain;*/
         background-repeat: no-repeat;
-        background-position:center;
+        background-position:center; 
+        /* height: 100dvh; */
+         background-size: 150dvh;
        
     }
     
     .hero-text{
         width: 80%;
-        bottom: 5%;
+        /* bottom: 5%; */
+        transform: translate(-50%, -15%);
      }
      
      .hero-text h6{
@@ -1033,10 +1058,16 @@ footer p, footer .footer-span{
      }
 
      .wrapper{
+        /* max-width: 54rem; */
         padding: 4rem 1.5rem 10rem 1.5rem;
     }
     .services{
         padding: 1rem;
+        margin: 1rem auto;
+        
+        padding: 5% 2%;
+        word-wrap:break-word; 
+        width: 100%;
     }
     .services .service-content .content-box{
         width: 100%;
@@ -1129,7 +1160,15 @@ footer p, footer .footer-span{
         font-size: 1.6rem;
     }
     
-    
+    .modal-content {
+        background-color: #fff;
+        max-width: 80%;       
+        
+        margin: 10% auto;     
+        height: 80vh;   
+        padding:  1rem;
+        position: relative;
+    }
  
    
     .modal-content img {
@@ -1156,7 +1195,7 @@ footer p, footer .footer-span{
     }
 
 }
-@media only screen and (max-width: 541px){
+@media only screen and (max-width: 480px){
    
     .container{
         max-width:100vw;
@@ -1170,25 +1209,25 @@ footer p, footer .footer-span{
         
     }
     h3{
-        font-size: 2rem;
-        line-height: 3rem;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
         font-weight: 500;
        
     }
     h4{
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 3rem;
       
     }
     h6{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 2rem;
         color:#1F2D4C;
         margin-top: 1rem;
     }
     p, span{
-        font-size: 1.4rem;
-        line-height: 2.4rem;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
        
     }
     .main-btn{
@@ -1244,26 +1283,28 @@ footer p, footer .footer-span{
     }
 
     .back{
-        height: 80dvh;
-         background-size: 100dvh;
-        /*background-position: top; */
+        height: 75dvh;
+         background-size: 120dvh;
+         background-position: top;
     } 
 
     .hero-text{
         width: 80%;
         bottom: 5%;
-        transform: translate(-50%, -22%);
+        transform: translate(-50%, -25%);
      }
    
     .hero-text h2{
         font-size: 3rem;
-        line-height: 4rem;
+        line-height: 3.6rem;
+        text-align: left;
     }
     .hero-text h6{
         /* display: none; */
         font-size: 1.4rem;
         line-height: 1.6rem;
         padding: 1rem;
+        text-align: left;
         /* background-color: rgba(0,0,0, 0.25); */
     }
     .hero-text .hero-btn .main-btn{
@@ -1273,10 +1314,12 @@ footer p, footer .footer-span{
     }
     .hero-text .hero-btn{
         margin-top: 2rem;
+        margin-left: 0;
+        padding-left: 0;
     }
 
   .wrapper{
-    max-width: 40rem;
+    max-width: 42rem;
     margin-bottom: 1rem;
     margin-top: 0;
   }
@@ -1285,7 +1328,7 @@ footer p, footer .footer-span{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        text-align: center; 
+        text-align: left; 
         margin: 1rem auto;
         
         padding: 5% 2%;
@@ -1308,6 +1351,7 @@ footer p, footer .footer-span{
        
         margin: 2rem 0;
         padding: 0;
+        margin-top: 6rem;
         
     }
     .services .agency-name{
@@ -1361,12 +1405,12 @@ footer p, footer .footer-span{
     }
    
     .services h6{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 3rem;
         margin-bottom: 4rem;
     }
     .servics p{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         line-height: 3rem;
         word-wrap: break-word; 
     }
@@ -1385,27 +1429,27 @@ footer p, footer .footer-span{
         width: 90%;
     }
     .pricing .basic span {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .pricing .basic .price .sign {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .pricing .basic .price .currency {
-        font-size: 3rem;
+        font-size: 3.2rem;
     }
     .pricing .basic .price .product {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .pricing .basic ul li{
         line-height: 2rem;
     }
 
     .pricing h3{
-        font-size: 3rem;
+        font-size: 3.2rem;
         line-height: 4rem;
     }
     .pricing h6{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 3rem;
         margin-bottom: 4rem;
     }
@@ -1418,10 +1462,10 @@ footer p, footer .footer-span{
 
 .pricing .table .price-btn a {
     margin: 2.4rem auto;
-    margin-top: 1.6rem;
+    margin-top: 1.4rem;
     width: 17rem;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     border-radius: 2rem;
     padding: 0.5em 1em;
 }
@@ -1434,11 +1478,11 @@ footer p, footer .footer-span{
         width: 90%;
     }
     .call-to-act .parallax h3{
-        font-size: 3rem;
+        font-size: 3.2rem;
         line-height: 4rem;
     } 
     .call-to-act .parallax h6{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         line-height: 2.4rem;
     } 
 
@@ -1456,8 +1500,9 @@ footer p, footer .footer-span{
         padding: 2rem;
     }
     .contact .form .title p{
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         font-weight: 300;
+        font-size: 1.2rem;
     }
     .contact .form .description{
         padding: 1rem;
@@ -1467,15 +1512,16 @@ footer p, footer .footer-span{
         margin-bottom: 0;
     }
     .contact .form .description p{
-        margin-top:0.7rem;
+        margin-top: 0.7rem;
+        opacity: 75%;
     }
     .contact .form h3{
-        font-size: 2.4rem;
-        line-height: 3rem;
+        font-size: 3rem;
+        line-height: 4rem;
         font-weight: 500;
     }
     .contact .form h4{
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 3rem;
         font-weight: 500;
     }
@@ -1484,7 +1530,7 @@ footer p, footer .footer-span{
         padding-bottom: 1.5rem;
     } 
     .contact .form h6{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         line-height: 2rem;
         margin-top: 1.5rem;
         font-weight: 500;
@@ -1493,17 +1539,21 @@ footer p, footer .footer-span{
     .contact .form .row label,
     .contact .form .row select,
     .contact .form .check-service label{
-        font-size: 1.3rem;
-        line-height: 2rem;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
     }
     .contact .form .row select,
     .contact .form p{
-        font-size: 1.3rem;
-        line-height: 1.5rem;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
         font-weight: 300;
     }
     .contact .form .row select{
-        font-size: 1rem;
+        font-size: 1.4rem;
+    }
+    .contact .form .check-service label{
+        font-size: 1.5rem;
+        line-height: 3rem;
     }
     .contact .form .first-row,
     .contact .form .second-row,
@@ -1532,17 +1582,17 @@ footer p, footer .footer-span{
         border-radius: 1.6rem;
         padding: 0 2rem;
         font-weight: 700;      
-        font-size: 1.4rem;
+        font-size: 1.6rem;
        
     }
     .contact .form textarea::placeholder {
         font-family: "Poppins" sans-serif;
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
 
     
     .modal{
-        max-width: 36rem;
+        max-width: 100%;
       }
     .modal-content {
         background-color: #fff;
@@ -1552,7 +1602,7 @@ footer p, footer .footer-span{
          flex-direction: column; 
         justify-content: center;
         align-items: center;
-        max-height: 100vh;   
+        height: 85vh;   
         padding:  1rem;
         overflow-y: scroll;
         position: relative;
@@ -1560,7 +1610,8 @@ footer p, footer .footer-span{
     }
       .modal-content img {
         width: 85%;
-        height: 15vh;display: none;
+        height: 15vh;
+        display: none;
 
       }
     
@@ -1630,22 +1681,22 @@ footer p, footer .footer-span{
         width: 100%;
     }
     .modal-content .form  p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: 600;
     }
     .modal-content .form  div select option{
-        font-size: 1rem;
+        font-size: 1.2rem;
   
     }
     .modal-content .form  h6{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         line-height: 1.4rem;
     }
     .modal-content .form  h4{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .modal-content .form  h3{
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 2rem;
         color: white;
     }    
@@ -1680,14 +1731,14 @@ footer p, footer .footer-span{
 
     }
     footer .row-one a{
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
    
     
     
     footer p, footer .footer-span{
-    font-size: 1rem;
-    line-height: 1.8rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
     margin-top: 1rem;
     }
     
@@ -1698,22 +1749,17 @@ footer p, footer .footer-span{
     
     }
 }
-@media only screen and (max-width: 374px){
+@media only screen and (max-width: 361px){
+   
     .back {
-        height: 65dvh;
-        background-size: 100dvh;
+        height: 120dvh;
+        background-size: 130dvh;
+        background-position: center;
     }
     .hero-text{
         /* width: 90%; */
-        transform: translate(-50%, -30%);
+        transform: translate(-50%, -50%);
     }
-     .hero-text h2{
-        font-size: 2.8rem;
-        line-height: 3rem;
-    }
-    .hero-text h6{
-        display: none;
-    } 
 
     .call-to-act .parallax h3 {
         font-size: 2.8rem;
