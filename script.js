@@ -97,6 +97,7 @@ document.getElementById('popupForm').addEventListener('submit', (event) => {
 
 const submitForm = () => {
   const form = document.getElementById('popupForm');
+  const successMessage = document.getElementById('popupSuccessMessage');
 
   fetch(form.action, {
     method: 'POST',
