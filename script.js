@@ -90,3 +90,24 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
 
 
 // Prevent page reload after submitting to netlify
+document.getElementById('myModal').addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent the default form submission behavior
+  submitForm(); // Custom function to handle form submission asynchronously
+});
+
+const submitForm = () => {
+  const form = document.getElementById('myModal');
+
+  fetch(form.action, {
+    method: 'POST',
+    body: new FormData(form),
+  })
+    .then((response) => {
+        // Handle the successful form submission
+        successMessage.style.display = 'block';
+    })
+    .catch((error) => {
+      // Handle any error that occurred during the request
+      console.error('Error submitting the form:', error);
+    });
+  };
