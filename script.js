@@ -107,7 +107,41 @@ const submitForm = () => {
     .then((response) => {
         // Handle the successful form submission
         successMessage.style.display = 'block';
+        form.reset(); 
         setTimeout(disappearModal, 3000);
+
+    })
+    .catch((error) => {
+      // Handle any error that occurred during the request
+      console.error('Error submitting the form:', error);
+    });
+  };
+
+// Prevent page reload after submitting to netlify
+document.getElementById('contactForm').addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent the default form submission behavior
+  submitContactForm(); // Custom function to handle form submission asynchronously
+});
+
+
+
+const submitContactForm = () => {
+  const form = document.getElementById('contactForm');
+  const successMessage = document.getElementById('contactSuccessMessage');
+  
+  function disappearMessage() {
+    successMessage.style.display = "none";
+  }
+
+  fetch(form.action, {
+    method: 'POST',
+    body: new FormData(form),
+  })
+    .then((response) => {
+        // Handle the successful form submission
+        successMessage.style.display = 'block';
+        form.reset(); 
+        setTimeout(disappearMessage, 2000);
 
     })
     .catch((error) => {
