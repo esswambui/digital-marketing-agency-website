@@ -90,13 +90,13 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
 
 
 // Prevent page reload after submitting to netlify
-document.getElementById('myModal').addEventListener('submit', (event) => {
+document.getElementById('popupForm').addEventListener('submit', (event) => {
   event.preventDefault(); // Prevent the default form submission behavior
   submitForm(); // Custom function to handle form submission asynchronously
 });
 
 const submitForm = () => {
-  const form = document.getElementById('myModal');
+  const form = document.getElementById('popupForm');
 
   fetch(form.action, {
     method: 'POST',
