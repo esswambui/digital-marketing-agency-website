@@ -1785,9 +1785,9 @@ footer p, footer .footer-span{
         background-size: 130dvh;
         background-position: center;
     }
-    /* .hero-text{
+    .hero-text{
         transform: translate(-50%, -30%);
-    } */
+    } 
     .hero-text .hero-btn {
         display: flex;
     }
