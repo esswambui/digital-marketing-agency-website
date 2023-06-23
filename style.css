@@ -679,6 +679,13 @@ footer .logo img{
     outline: 1px solid #1F2D4C;
 }
 
+.contact .form .success-message{
+    display: none;
+    background: #0AC9B2;
+    font-weight: 700;
+}
+
+
 /* ========================= MODAL SECTION ========================= */
 
 .modal {
@@ -840,6 +847,11 @@ footer .logo img{
 .modal .form .hero-btn:hover a{
     background: transparent;
     outline: 1px solid #1F2D4C;
+}
+.modal .form .success-message{
+    display: none;
+    background: #0AC9B2;
+    font-weight: 700;
 }
 
 

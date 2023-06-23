@@ -59,14 +59,15 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
 
    // Function to display the modal
    function displayModal() {
-  //   for (var i = 0; i < textAreas.length; i++) {
-  //     textAreas[i].style.display = "none";
-  // }
        modal.style.display = "block";
-      
    }
 
-   // Wait for 10 seconds before displaying the modal
+   // Function to disappear the modal
+   function disappearModal() {
+       modal.style.display = "none";
+   }
+
+   // Wait for 25 seconds before displaying the modal
    setTimeout(displayModal, 25000);
 
 
@@ -106,6 +107,8 @@ const submitForm = () => {
     .then((response) => {
         // Handle the successful form submission
         successMessage.style.display = 'block';
+        setTimeout(disappearModal, 3000);
+
     })
     .catch((error) => {
       // Handle any error that occurred during the request
