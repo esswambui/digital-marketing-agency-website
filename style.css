@@ -1301,7 +1301,7 @@ footer p, footer .footer-span{
     }
     .hero-text h6{
         /* display: none; */
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         line-height: 1.6rem;
         padding: 1rem;
         text-align: left;
@@ -1758,6 +1758,7 @@ footer p, footer .footer-span{
     }
     .hero-text{
         /* width: 90%; */
+        transform: translate(-50%, -60%);
     }
 
     .call-to-act .parallax h3 {
@@ -1774,5 +1775,20 @@ footer p, footer .footer-span{
         padding: 9 1em;
         line-height: 4rem;
         
+    }
+}
+
+@media only screen and (max-width: 361px){
+   
+    .back {
+        height: 120dvh;
+        background-size: 130dvh;
+        background-position: center;
+    }
+    /* .hero-text{
+        transform: translate(-50%, -30%);
+    } */
+    .hero-text .hero-btn {
+        display: flex;
     }
 }
