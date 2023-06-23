@@ -1758,7 +1758,6 @@ footer p, footer .footer-span{
     }
     .hero-text{
         /* width: 90%; */
-        transform: translate(-50%, -50%);
     }
 
     .call-to-act .parallax h3 {
