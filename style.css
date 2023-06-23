@@ -1718,7 +1718,7 @@ footer p, footer .footer-span{
         display: none;
     }
     footer {
-        max-width: 40rem;
+        max-width: 100%;
         padding: 4rem;
         display: flex;
         flex-direction: column;
