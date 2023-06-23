@@ -206,13 +206,13 @@ footer .logo img{
         background-image: url(images/8.jpg);
     }
     25%{
-        background-image: url(images/6.jpg);
+        background-image: url(images/13.jpg);
     }
     50%{
-        background-image: url(images/7.jpg);
+        background-image: url(images/14.jpg);
     }
     75%{
-        background-image: url(images/3.jpg);
+        background-image: url(images/12.jpg);
     }
 }
 .back .overlay{
@@ -705,14 +705,13 @@ footer .logo img{
 .modal-content {
     background-color: #fff;
     max-width: 80%;
-    margin: 1rem auto;
-    margin-top: 3rem;
+    margin: 0 auto;
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    max-height: 90vh;   
-    padding: 3rem 1rem;
+    height: 100vh;   
+    padding: 1rem 1rem;
     overflow-y: auto;
     position: relative;
     
@@ -720,14 +719,14 @@ footer .logo img{
 .modal-content .close {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     font-size: 3rem;
     font-weight: 700;
     color: #1F2D4C;
     cursor: pointer;
     /* background-image: linear-gradient(to right, #0AC9B2, #0097B2);*/
-    border: 1px solid #0AC9B2; 
-    padding: 1rem 1.5rem;
+    border: 3px solid #0AC9B2; 
+    padding: 0.5rem 1rem;
   }
   
   .modal-content .close:hover {
@@ -735,14 +734,14 @@ footer .logo img{
   }
   .modal-content img {
     width: 35%;
-    height: 40vh;
+    height: 70vh;
     align-self: center;
   }
 
   .modal .modal-content .form {
     display: flex;
     flex-direction: column;
-    margin: 1rem 1rem ;
+    margin: 2rem 1rem ;
     margin-top: 2rem;
     padding: 5% 2%;
     /* padding-left: 5rem; */
@@ -759,11 +758,11 @@ footer .logo img{
 }
 .modal-content .form .row div{
        width: 100%;
-    height: 5rem;
+    height: 6rem;
 }
 .modal-content .form .row input,
 .modal-content .form  div select{
-    height: 2rem;
+    height: 3rem;
     border: 1px solid #cbced1;
     /* border-radius : 0.5rem; */
     padding: 0 1.5rem;
@@ -793,6 +792,7 @@ footer .logo img{
     margin-bottom: 1rem;
     background: linear-gradient(90deg, rgba(31,45,76,1) 10%, rgba(0,0,0, 0.9) 50%, rgba(45,77,99,1) 90%);
     padding: 2rem 2%;
+    padding-bottom: 0;
     
    
 }
@@ -1245,8 +1245,8 @@ footer p, footer .footer-span{
 
     .back{
         height: 80dvh;
-        background-size: 125dvh;
-        background-position: top;
+         background-size: 100dvh;
+        /*background-position: top; */
     } 
 
     .hero-text{
@@ -1596,7 +1596,7 @@ footer p, footer .footer-span{
     }
     .modal-content .form .row div{
            width: 90%;
-        height: 6rem; 
+        height: 5rem; 
         margin: 1rem auto;
     }
     .modal .form .first-row div{
@@ -1612,7 +1612,7 @@ footer p, footer .footer-span{
     }
     .modal-content .form .row input,
     .modal-content .form  div select{
-        height: 3rem; 
+        height: 2.5rem; 
         border: 1px solid #cbced1;
         /* border-radius : 0.5rem; */
         padding: 1rem 1.5rem;
