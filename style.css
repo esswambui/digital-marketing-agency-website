@@ -1760,8 +1760,8 @@ footer p, footer .footer-span{
 @media only screen and (max-width: 361px){
    
     .back {
-        height: 90dvh;
-        background-size: 120dvh;
+        height: 80dvh;
+        background-size: 110dvh;
         background-position: center;
     }
     .hero-text{
