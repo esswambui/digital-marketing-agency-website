@@ -1766,7 +1766,7 @@ footer p, footer .footer-span{
     }
     .hero-text{
         /* width: 90%; */
-        transform: translate(-55%, -15%);
+        transform: translate(-55%, -20%);
     }
     .hero-text h2{
         font-size: 2.4rem;
