@@ -1799,7 +1799,7 @@ footer p, footer .footer-span{
     }
 }
 
-@media only screen and (max-width: 301px){
+@media only screen and (max-width: 281px){
    
     .back {
         height: 120dvh;
