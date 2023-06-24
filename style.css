@@ -132,6 +132,7 @@ header{
     display: none;
     border: none;
     outline: none;
+    
 }
 .nav .navbar-toggler .toggler-icon{
     width: 2.7rem;
@@ -141,6 +142,7 @@ header{
     position: relative;
     display: block;
     transition: all 0.3s ease-out 0s;
+    
 }
 .nav .navbar-toggler .close{
     /* position: absolute;
@@ -1804,8 +1806,11 @@ footer p, footer .footer-span{
         background-size: 130dvh;
         background-position: center;
     }
+    /* .nav{
+        background: transparent;
+    } */
     .hero-text{
-        transform: translate(-50%, -25%);
+        transform: translate(-50%, -20%);
     } 
     .hero-text h2 {
         font-size: 2.4rem;
