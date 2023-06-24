@@ -108,7 +108,8 @@ const submitForm = () => {
         // Handle the successful form submission
         successMessage.style.display = 'block';
         form.reset(); 
-        setTimeout(disappearModal, 3000);
+        setTimeout(disappearMessage, 2000);
+        setTimeout(disappearModal, 4000);
 
     })
     .catch((error) => {
