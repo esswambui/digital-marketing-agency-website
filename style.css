@@ -1610,7 +1610,7 @@ footer p, footer .footer-span{
          flex-direction: column; 
         justify-content: center;
         align-items: center;
-        height: 98dvh;   
+        height: 100dvh;   
         padding:  1rem;
         overflow-y: scroll;
         position: relative;
@@ -1795,7 +1795,7 @@ footer p, footer .footer-span{
     
     .modal-content {
         max-width: 80%;
-        height: 120vh;   
+        height: 140dvh;   
     }
 }
 
