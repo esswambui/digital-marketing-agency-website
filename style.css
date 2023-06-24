@@ -1760,7 +1760,7 @@ footer p, footer .footer-span{
 @media only screen and (max-width: 361px){
    
     .back {
-        height: 90dvh;
+        height: 92.5dvh;
         background-size: 130dvh;
         background-position: center;
     }
