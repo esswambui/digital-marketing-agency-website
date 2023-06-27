@@ -101,6 +101,10 @@ const submitForm = () => {
   const form = document.getElementById('popupForm');
   const successMessage = document.getElementById('popupSuccessMessage');
 
+  function disappearMessage() {
+    successMessage.style.display = "none";
+  }
+  
   fetch(form.action, {
     method: 'POST',
     body: new FormData(form),
