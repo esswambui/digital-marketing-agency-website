@@ -18,6 +18,7 @@ document.querySelectorAll(' a[href^="#"]').forEach(anchor => {
       
       navBar.style.right = "-36rem";
       socials.style.right = "-36rem";
+       closeBar.style.display= "none";
 
       const offset = 150; // Change this value to adjust the offset
       

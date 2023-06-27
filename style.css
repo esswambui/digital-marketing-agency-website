@@ -195,6 +195,7 @@ footer .logo img{
 /* =======================MAIN SECTION ============================== */
 .back{
     /* background-image: url(images/8.jpg); */
+    background-color: #000;
     background-size: cover;
     background-attachment: fixed;
     position: relative; 
@@ -1577,6 +1578,13 @@ footer p, footer .footer-span{
     .contact .form .first-row{
         margin: 0;
     }
+    .contact .form .third-row {
+        margin-bottom: 0;
+    }
+    .contact .form .third-row div{
+        
+        height: 10rem;
+    }
     .contact .form .first-row input,
     .contact .form .second-row input{
         width: 100%;
@@ -1793,6 +1801,10 @@ footer p, footer .footer-span{
         
     }
     
+    .contact .form .row select{
+        font-size: 1.2rem;
+    }
+    
     .modal-content {
         max-width: 80%;
         height: 140dvh;   
@@ -1823,6 +1835,9 @@ footer p, footer .footer-span{
     .hero-text .hero-btn li a.main-btn {
         font-size: 1rem;
         line-height: 3rem;
+    }
+    .contact .form .row select{
+        font-size: 1rem;
     }
 
     .modal-content {
