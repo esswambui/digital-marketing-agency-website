@@ -902,9 +902,9 @@ footer p, footer .footer-span{
 
 /* ======================= MEDIA QUERIES ============================ */
 @media only screen and (max-width: 1025px){
-    link[rel="icon"] {
+    /* link[rel="icon"] {
         content: url(images/favicons/favicon-32x32.png);
-    }
+    } */
     .nav{
         padding: 1.6rem 8rem;
         width:100vw
@@ -973,9 +973,9 @@ footer p, footer .footer-span{
 }
 
 @media only screen and (max-width: 774px){
-    link[rel="icon"] {
+    /* link[rel="icon"] {
         content: url(images/favicons/apple-touch-icon.png);
-    }
+    } */
     .top-nav span,
     .top-nav a,
     .top-nav i{
@@ -1214,9 +1214,9 @@ footer p, footer .footer-span{
 
 }
 @media only screen and (max-width: 541px){
-    link[rel="icon"] {
+    /* link[rel="icon"] {
         content: url(images/favicons/android-chrome-192x192.png);
-    }
+    } */
     .container{
         max-width:100vw;
     }
