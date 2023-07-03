@@ -239,7 +239,8 @@ footer .logo img{
 }
 .hero-text{
     position: absolute;
-    bottom: 10%;
+    bottom: 20%; 
+    
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -981,6 +982,13 @@ footer p, footer .footer-span{
         transform: translate(-50%, -50%);
         bottom: 40%;
         width: 70%;
+     }
+}
+@media only screen and (max-width: 9555px){
+   
+    .hero-text{
+        width: 80%;
+        bottom: 12%;
      }
 }
 
