@@ -901,20 +901,20 @@ footer p, footer .footer-span{
 }
 
 /* ======================= MEDIA QUERIES ============================ */
-@media only screen and (max-width: 1025px){
+@media only screen and (max-width: 1201px){
     /* link[rel="icon"] {
         content: url(images/favicons/favicon-32x32.png);
     } */
     .nav{
-        padding: 1.6rem 8rem;
+        padding: 1.6rem 10rem;
         width:100vw
     }
     .nav .navbar-social span{
         display: none;
     }
     .hero-text{
-       width: 60%;
-       bottom: 40%;
+       width: 80%;
+       bottom: 25%;
     }
     
     .hero-text h2{
@@ -970,6 +970,18 @@ footer p, footer .footer-span{
       
         height: 50vh;
       }
+}
+
+@media only screen and (max-width: 1025px){
+    .nav{
+        padding: 1.6rem 6rem;
+      
+    }
+    .hero-text{
+        transform: translate(-50%, -50%);
+        bottom: 40%;
+        width: 70%;
+     }
 }
 
 @media only screen and (max-width: 774px){
