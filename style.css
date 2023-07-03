@@ -239,7 +239,7 @@ footer .logo img{
 }
 .hero-text{
     position: absolute;
-    bottom: 20%; 
+    bottom: 30%; 
     
     left: 50%;
     transform: translate(-50%, -50%);
@@ -902,6 +902,12 @@ footer p, footer .footer-span{
 }
 
 /* ======================= MEDIA QUERIES ============================ */
+@media only screen and (max-width: 1921px){
+    .hero-text{
+        width: 80%;
+        bottom: 12%;
+     }
+}
 @media only screen and (max-width: 1201px){
     /* link[rel="icon"] {
         content: url(images/favicons/favicon-32x32.png);
@@ -984,7 +990,7 @@ footer p, footer .footer-span{
         width: 70%;
      }
 }
-@media only screen and (max-width: 9555px){
+@media only screen and (max-width: 955px){
    
     .hero-text{
         width: 80%;
